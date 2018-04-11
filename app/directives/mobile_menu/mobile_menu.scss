@@ -1,0 +1,103 @@
+//directvives style`s
+
+.menu {
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  display: none;
+  .menu-close {
+    border: none;
+    background: transparent;
+    font-size: 65px;
+    float: right;
+    //margin-top: 15px;
+    //margin-right: 30px;
+    position: absolute;
+    right: 1%;
+    svg {
+      color: white;
+    }
+
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 60vh;
+    li {
+      text-align: center;
+      a {
+        font-size: 50px;
+      }
+
+    }
+  }
+}
+//& .active {
+//  display: block;
+//}
+
+//media
+@media (min-width: 1500px) {
+  .menu {
+
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .menu {
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu {
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .menu {
+
+  }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .menu {
+    .menu-close {
+      //margin-top: 0px !important;
+      //margin-right: -2px !important;
+    }
+    ul {
+
+      li {
+        a {
+          font-size: 48px !important;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .menu {
+    .menu-close {
+      font-size: 45px !important;
+    }
+    ul {
+
+      li {
+        a {
+          font-size: 40px !important;
+        }
+      }
+
+    }
+  }
+}

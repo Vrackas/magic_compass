@@ -1,0 +1,43 @@
+
+//templates
+@import "templates/homepage/homepage";
+
+//directives
+@import "directives/header_block/header_block";
+@import "directives/footer_block/footer_block";
+@import "directives/mobile_menu/mobile_menu";
+
+
+//componets
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.main-link {
+
+  text: {
+    decoration: none;
+    overflow: ellipsis;
+  }
+  font: {
+    weight: 400;
+    family: 'Relative Medium', Arial, sans-serif;
+    size: 25px;
+  }
+  border-bottom: 0px solid #ffffff;
+  color: white;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
