@@ -15,6 +15,14 @@
   $bg_empty_yellow: rgb(242, 192, 70);
   $bg_empty_light_green: rgb(84, 188, 62);
   $bg_empty_light_blue: rgb(78, 173, 190);
+  .header_image_parent {
+    height: 350px;
+    background: url("../img/home_0.png");
+    background-size: cover;
+    img {
+      width: 100%;
+    }
+  }
   //landing
   .get_started_block {
     width: 100%;

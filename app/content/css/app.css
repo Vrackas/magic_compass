@@ -1,3 +1,10 @@
+#homepage .header_image_parent {
+  height: 350px;
+  background: url("../img/home_0.png");
+  background-size: cover; }
+  #homepage .header_image_parent img {
+    width: 100%; }
+
 #homepage .get_started_block {
   width: 100%;
   background-color: #4db0c0;
