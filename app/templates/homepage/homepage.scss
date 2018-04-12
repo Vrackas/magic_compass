@@ -17,6 +17,7 @@
   $bg_empty_light_blue: rgb(78, 173, 190);
   //landing
   .get_started_block {
+    width: 100%;
     background-color: $bg_get_started_block;
     color: $white_text_color;
     div {
