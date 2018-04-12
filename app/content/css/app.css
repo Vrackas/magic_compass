@@ -92,15 +92,35 @@
       width: 30px;
       color: #ffffff;
       float: left;
-      margin: 0; }
+      margin: 0;
+      margin-right: 50px; }
       #header_language_block .container md-input-container md-select md-select-value {
+        border: none;
         min-width: 50px !important; }
         #header_language_block .container md-input-container md-select md-select-value span {
           color: #B3B2B4;
           min-width: 0px;
           width: 20px; }
     #header_language_block .container button.header_language_block_account {
-      float: left; }
+      margin-top: 5px;
+      float: left;
+      height: 26px;
+      width: 122px;
+      background: transparent;
+      border-radius: 2px;
+      border: 1px solid #C37323;
+      color: #C37323;
+      text-transform: uppercase;
+      font-size: 13px; }
+    #header_language_block .container button.header_language_block_client {
+      margin-top: 5px;
+      margin-left: 10px;
+      float: left;
+      border: none;
+      background: transparent;
+      color: #B3B2B4; }
+      #header_language_block .container button.header_language_block_client svg {
+        margin-left: 3px; }
 
 .footer-site {
   height: auto;

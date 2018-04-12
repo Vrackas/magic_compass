@@ -5,10 +5,12 @@
     md-input-container {
       width: 30px;
       color: #ffffff;
-      float:left;
+      float: left;
       margin: 0;
+      margin-right: 50px;
       md-select {
         md-select-value {
+          border: none;
           min-width: 50px !important;
           span {
             color: #B3B2B4;
@@ -18,11 +20,32 @@
           }
         }
       }
-      //color:#C37323;
     }
 
-    button.header_language_block_account{
+    button.header_language_block_account {
+      margin-top: 1px;
       float: left;
+      height: 26px;
+      width: 122px;
+      background: transparent;
+      border-radius: 2px;
+      border: 1px solid #C37323;
+      color: #C37323;
+      text-transform: uppercase;
+      font-size: 13px;
+
     }
+    button.header_language_block_client{
+      margin-top: 1px;
+      margin-left: 10px;
+      float: left;
+      border: none;
+      background: transparent;
+      color: #B3B2B4;
+      svg{
+        margin-left: 3px;
+      }
+    }
+
   }
 }
