@@ -9,28 +9,26 @@
                 <ul>
                     <li><md-input-container class="md-block" flex-gt-sm>
                         <label>TRADING</label>
-                        <md-select ng-model="user.trading">
+                        <md-select ng-model="header.trading">
                             <md-option ng-repeat="state in states" value="{{state.abbrev}}">
                                 {{state.abbrev}}
                             </md-option>
                         </md-select>
                         </md-input-container></li>
                     <li><md-input-container class="md-block" flex-gt-sm>
-                        <label>research&education</label>
-                        <md-select ng-model="user.state">
+                        <label>research & education</label>
+                        <md-select ng-model="header.research">
                             <md-option ng-repeat="state in states" value="{{state.abbrev}}">
                                 {{state.abbrev}}
                             </md-option>
                         </md-select>
                     </md-input-container>
                     </li>
-                    <li><a href="pages/about_us.html" class="main-link lang" data-key-parent='header'
-                           data-key-child='About'>About Us</a></li>
-                    <li><a href="pages/contacts.html" class="main-link lang" data-key-parent='header'
-                           data-key-child='Contact'>Contact</a></li>
+                    <li><a href="">partners</a></li>
+                    <li><a href="">invest</a></li>
                     <li><md-input-container class="md-block" flex-gt-sm>
-                        <label>TRADING</label>
-                        <md-select ng-model="user.state">
+                        <label>why us</label>
+                        <md-select ng-model="header.state">
                             <md-option ng-repeat="state in states" value="{{state.abbrev}}">
                                 {{state.abbrev}}
                             </md-option>
