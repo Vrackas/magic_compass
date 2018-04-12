@@ -284,6 +284,8 @@
     width: 100%;
     height: auto;
     background: #022C2F; }
+    #footer-block .footer_block_nav .container ul {
+      padding-left: 20px; }
     #footer-block .footer_block_nav .container .footer_block_nav_trading {
       width: 210px;
       color: #B3B3B4;
