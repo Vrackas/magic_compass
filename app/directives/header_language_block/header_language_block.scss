@@ -1,3 +1,28 @@
-#header_language_block{
+#header_language_block {
+  background: #282B33 !important;
+  .container {
+    height: 40px;
+    md-input-container {
+      width: 30px;
+      color: #ffffff;
+      float:left;
+      margin: 0;
+      md-select {
+        md-select-value {
+          min-width: 50px !important;
+          span {
+            color: #B3B2B4;
+            min-width: 0px;
+            width: 20px;
 
+          }
+        }
+      }
+      //color:#C37323;
+    }
+
+    button.header_language_block_account{
+      float: left;
+    }
+  }
 }

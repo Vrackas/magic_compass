@@ -84,6 +84,24 @@
   header .header-site-content .header-site-content-menu {
     display: none; } }
 
+#header_language_block {
+  background: #282B33 !important; }
+  #header_language_block .container {
+    height: 40px; }
+    #header_language_block .container md-input-container {
+      width: 30px;
+      color: #ffffff;
+      float: left;
+      margin: 0; }
+      #header_language_block .container md-input-container md-select md-select-value {
+        min-width: 50px !important; }
+        #header_language_block .container md-input-container md-select md-select-value span {
+          color: #B3B2B4;
+          min-width: 0px;
+          width: 20px; }
+    #header_language_block .container button.header_language_block_account {
+      float: left; }
+
 .footer-site {
   height: auto;
   z-index: 100;
