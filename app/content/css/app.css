@@ -106,90 +106,40 @@
     text-align: center; }
 
 .header-site {
-  height: 86px;
+  height: 87px;
   width: 100%;
-  position: fixed;
-  background: rgba(255, 255, 255, 0.5);
-  z-index: 10000; }
+  background: white; }
   .header-site .header-site-content .header-site-content-logo {
     float: left;
     width: 250px; }
     .header-site .header-site-content .header-site-content-logo img {
-      width: 250px; }
-  .header-site .header-site-content .header-site-content-media-menu {
-    border: none;
-    background: transparent;
-    float: right;
-    margin-top: 15px;
-    margin-right: 30px; }
-    .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button {
-      border: none;
-      background: transparent;
-      font-size: 55px; }
-      .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button svg {
-        color: #303030; }
+      height: 87px; }
   .header-site .header-site-content .header-site-content-menu {
     float: right;
     margin-right: 15px; }
     .header-site .header-site-content .header-site-content-menu ul li {
       float: left;
-      margin-left: 55px;
+      margin-left: 42px;
       display: block;
       margin-top: 15px;
-      transition: .3s;
       color: #303030; }
-    .header-site .header-site-content .header-site-content-menu ul li:hover {
-      margin-top: 11px; }
-
-@media (min-width: 1500px) {
-  header .header-site-content-media-menu {
-    display: none; } }
-
-@media (min-width: 1200px) and (max-width: 1499px) {
-  header .header-site-content-media-menu {
-    display: none; } }
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  header.header-site .header-site-content-media-menu {
-    display: none !important; } }
-
-@media (min-width: 768px) and (max-width: 992px) {
-  header .header-site-content .header-site-content-logo .main-title {
-    font-size: 75px !important; }
-  header .header-site-content .header-site-content-media-menu {
-    display: block; }
-    header .header-site-content .header-site-content-media-menu button {
-      font-size: 55px !important; }
-  header .header-site-content .header-site-content-menu {
-    display: none; } }
-
-@media (min-width: 540px) and (max-width: 768px) {
-  header .header-site-content .header-site-content-logo .main-title {
-    font-size: 50px !important; }
-  header .header-site-content .header-site-content-media-menu {
-    display: block; }
-    header .header-site-content .header-site-content-media-menu button {
-      font-size: 45px !important; }
-  header .header-site-content .header-site-content-menu {
-    display: none; } }
-
-@media (max-width: 540px) {
-  header .header-site-content .header-site-content-logo .main-title {
-    font-size: 50px !important; }
-  header .header-site-content .header-site-content-logo img {
-    position: absolute;
-    left: 50%;
-    margin-left: -125px;
-    margin-top: 0 !important; }
-  header .header-site-content .header-site-content-media-menu {
-    margin-right: 2px !important;
-    margin-top: 2px !important;
-    display: block; }
-    header .header-site-content .header-site-content-media-menu button {
-      margin-top: 15px !important;
-      font-size: 40px !important; }
-  header .header-site-content .header-site-content-menu {
-    display: none; } }
+      .header-site .header-site-content .header-site-content-menu ul li a {
+        font-size: 11px;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 11px;
+        text-decoration: none;
+        color: #595959; }
+      .header-site .header-site-content .header-site-content-menu ul li md-input-container {
+        margin: 0; }
+        .header-site .header-site-content .header-site-content-menu ul li md-input-container md-select md-select-value {
+          border: none; }
+          .header-site .header-site-content .header-site-content-menu ul li md-input-container md-select md-select-value span {
+            text-transform: uppercase;
+            font-size: 11px;
+            color: #595959; }
+          .header-site .header-site-content .header-site-content-menu ul li md-input-container md-select md-select-value span.md-select-icon {
+            color: #F88B1D; }
 
 #header_language_block {
   background: #282B33 !important; }
@@ -231,161 +181,166 @@
       #header_language_block .container button.header_language_block_client svg {
         margin-left: 3px; }
 
-.footer-site {
+#footer-block {
   height: auto;
-  z-index: 100;
-  background: #303030;
-  box-sizing: border-box;
-  color: #e5ddd9;
-  padding-bottom: 1.11111rem;
-  padding-top: 3.33333rem;
-  text-align: left;
   width: 100%; }
-  .footer-site .footer-site-logo {
-    margin: 30px auto 0;
-    text-align: center; }
-    .footer-site .footer-site-logo p {
-      color: rgba(232, 230, 229, 0.5); }
-    .footer-site .footer-site-logo img {
-      width: 250px; }
-  .footer-site .footer-site-contact {
-    margin-bottom: 140px; }
-    .footer-site .footer-site-contact div {
-      width: 33.3333%;
-      height: 20px;
-      background: transparent;
-      float: left; }
-      .footer-site .footer-site-contact div p {
-        color: rgba(232, 230, 229, 0.5);
-        text-align: center;
-        line-height: 22px; }
-      .footer-site .footer-site-contact div a {
-        display: inline-block;
-        color: rgba(232, 230, 229, 0.5);
-        font-weight: 400;
-        font-family: 'Relative Medium', Arial, sans-serif;
-        font-size: 20px;
-        text-decoration: none; }
-    .footer-site .footer-site-contact .footer-site-contact-email a {
-      margin-left: 50px;
-      margin-top: 45px; }
-    .footer-site .footer-site-contact .footer-site-contact-email a:hover {
-      color: #ff3750;
-      text-decoration: underline; }
-    .footer-site .footer-site-contact .footer-site-contact-social {
-      display: flex;
-      justify-content: center; }
-      .footer-site .footer-site-contact .footer-site-contact-social div {
-        width: 300px;
-        display: flex;
-        justify-content: space-around; }
-        .footer-site .footer-site-contact .footer-site-contact-social div a {
-          float: left;
-          font-size: 25px; }
-        .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
-          color: #ff3750; }
-    .footer-site .footer-site-contact .footer-site-contact-phone div {
-      margin-right: 50px;
-      float: right;
-      width: auto; }
-      .footer-site .footer-site-contact .footer-site-contact-phone div b {
-        color: rgba(232, 230, 229, 0.5);
-        margin-top: 45px;
-        display: inline-block;
-        font-size: 20px;
-        margin-right: 5px; }
-      .footer-site .footer-site-contact .footer-site-contact-phone div a {
+  #footer-block .footer_block_account {
+    height: 350px;
+    width: 100%; }
+    #footer-block .footer_block_account div.footer_block_account_left {
+      background-image: url("../../content/img/footer_demo account.png");
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      height: 350px; }
+      #footer-block .footer_block_account div.footer_block_account_left div {
+        background: transparent;
+        width: 400px;
         float: right;
-        text-align: left;
-        width: 250px;
-        margin-top: 45px; }
-      .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
-        color: #ff3750;
-        text-decoration: underline; }
-  .footer-site .footer-site-license {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px; }
-    .footer-site .footer-site-license div {
-      display: flex;
-      width: 600px;
-      justify-content: space-around; }
-      .footer-site .footer-site-license div p, .footer-site .footer-site-license div a {
-        float: left;
-        font-size: 12px;
-        font-family: 'Relative Medium', Arial, sans-serif;
-        color: rgba(232, 230, 229, 0.5);
-        text-align: center;
-        margin: 0;
-        text-decoration: none; }
-      .footer-site .footer-site-license div a:first-child::after {
-        border-left: 1px solid rgba(232, 230, 229, 0.5); }
-      .footer-site .footer-site-license div .test {
-        width: auto; }
-        .footer-site .footer-site-license div .test .test_button {
-          border: none;
-          background: transparent; }
-        .footer-site .footer-site-license div .test ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333; }
-        .footer-site .footer-site-license div .test li {
-          float: left; }
-        .footer-site .footer-site-license div .test li a, .footer-site .footer-site-license div .test .dropbtn {
-          display: inline-block;
-          color: white;
+        margin-right: 100px;
+        margin-top: 90px; }
+        #footer-block .footer_block_account div.footer_block_account_left div h3 {
+          text-transform: uppercase;
+          font-size: 20px;
           text-align: center;
-          text-decoration: none; }
-        .footer-site .footer-site-license div .test li a:hover, .footer-site .footer-site-license div .test .dropdown:hover .dropbtn {
-          background-color: #ff3750; }
-        .footer-site .footer-site-license div .test li.dropdown {
-          display: inline-block; }
-        .footer-site .footer-site-license div .test .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          z-index: 1; }
-        .footer-site .footer-site-license div .test .dropdown-content a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left; }
-        .footer-site .footer-site-license div .test .dropdown-content a:hover {
-          background-color: #f1f1f1; }
-        .footer-site .footer-site-license div .test .dropdown:hover .dropdown-content {
-          display: block; }
-  .footer-site .footer-site-bottom {
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Relative Medium', Arial, sans-serif;
-    color: rgba(232, 230, 229, 0.5);
-    margin-bottom: 40px; }
-
-@media (max-width: 540px) {
-  footer {
-    padding-top: 10px !important; }
-    footer .footer-site-contact {
-      width: 100% !important;
-      float: none;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      margin-bottom: 70px !important; }
-      footer .footer-site-contact div {
-        margin: 20px auto; }
-    footer .footer-site-license {
-      margin-bottom: 0 !important; }
-      footer .footer-site-license div {
-        flex-direction: column; }
-        footer .footer-site-license div a {
-          margin: 15px auto !important; }
-    footer .footer-site-bottom {
-      margin-bottom: 10px !important; } }
+          color: white;
+          font-family: Calibri;
+          font-weight: 200; }
+        #footer-block .footer_block_account div.footer_block_account_left div p {
+          text-align: center;
+          color: white;
+          font-family: Calibri;
+          font-weight: 200;
+          font-size: 18px; }
+        #footer-block .footer_block_account div.footer_block_account_left div button {
+          width: 260px;
+          height: 46px;
+          text-transform: uppercase;
+          color: white;
+          background: rgba(3, 131, 195, 0.8);
+          border: none;
+          border-radius: 3px; }
+    #footer-block .footer_block_account div.footer_block_account_right {
+      background-image: url("../../content/img/footer_open account.png");
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      height: 350px; }
+      #footer-block .footer_block_account div.footer_block_account_right div {
+        background: transparent;
+        width: 400px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 90px; }
+        #footer-block .footer_block_account div.footer_block_account_right div h3 {
+          text-transform: uppercase;
+          font-size: 20px;
+          text-align: center;
+          color: white;
+          font-family: Calibri;
+          font-weight: 200; }
+        #footer-block .footer_block_account div.footer_block_account_right div p {
+          text-align: center;
+          color: white;
+          font-family: Calibri;
+          font-weight: 200;
+          font-size: 18px; }
+        #footer-block .footer_block_account div.footer_block_account_right div button {
+          width: 260px;
+          height: 46px;
+          text-transform: uppercase;
+          color: white;
+          background: rgba(224, 132, 46, 0.8);
+          border: none;
+          border-radius: 3px; }
+  #footer-block .footer_block_help {
+    height: 80px;
+    width: 100%;
+    background: #FBBF15; }
+    #footer-block .footer_block_help h2 {
+      color: white; }
+    #footer-block .footer_block_help button {
+      border: 1px solid #ffffff;
+      background: transparent;
+      color: white;
+      width: 260px;
+      height: 50px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-size: 19px;
+      margin-top: 10px;
+      margin-left: 20px; }
+      #footer-block .footer_block_help button i {
+        font-size: 16px; }
+  #footer-block .footer_block_nav {
+    width: 100%;
+    height: auto;
+    background: #022C2F; }
+    #footer-block .footer_block_nav .container .footer_block_nav_trading {
+      width: 140px;
+      color: #B3B3B4;
+      margin-bottom: 40px; }
+      #footer-block .footer_block_nav .container .footer_block_nav_trading h3 {
+        color: #F58A21;
+        text-transform: uppercase; }
+      #footer-block .footer_block_nav .container .footer_block_nav_trading h4 {
+        color: #B3B3B4;
+        margin-bottom: 0; }
+      #footer-block .footer_block_nav .container .footer_block_nav_trading ul {
+        margin: 0; }
+    #footer-block .footer_block_nav .container .footer_block_nav_research {
+      width: 220px;
+      color: #B3B3B4; }
+      #footer-block .footer_block_nav .container .footer_block_nav_research h3 {
+        color: #F58A21;
+        text-transform: uppercase; }
+      #footer-block .footer_block_nav .container .footer_block_nav_research h4 {
+        color: #B3B3B4;
+        margin-bottom: 0; }
+      #footer-block .footer_block_nav .container .footer_block_nav_research ul {
+        margin: 0; }
+    #footer-block .footer_block_nav .container .footer_block_nav_partners h3 {
+      color: #F58A21;
+      text-transform: uppercase; }
+  #footer-block .footer_block_warning {
+    width: 100%;
+    height: auto;
+    background: #1B4143; }
+    #footer-block .footer_block_warning .container {
+      color: #B3B3B4;
+      font-family: "Roboto", sans-serif; }
+      #footer-block .footer_block_warning .container h3 {
+        padding-top: 20px;
+        margin: 0;
+        font-weight: 400;
+        letter-spacing: 0.5px; }
+      #footer-block .footer_block_warning .container p {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 17px;
+        letter-spacing: 0.5px; }
+  #footer-block .footer_block_reserved {
+    width: 100%;
+    height: 30px;
+    background: #022C2F; }
+    #footer-block .footer_block_reserved .container {
+      height: 30px; }
+      #footer-block .footer_block_reserved .container p {
+        margin: 0;
+        color: #B3B3B4;
+        font-size: 12px; }
+      #footer-block .footer_block_reserved .container ul {
+        list-style-type: none; }
+        #footer-block .footer_block_reserved .container ul li {
+          color: #B3B3B4;
+          text-transform: uppercase;
+          font-size: 12px;
+          border-left: 1.5px solid #B3B3B4;
+          padding: 0 7px; }
+        #footer-block .footer_block_reserved .container ul li:first-child {
+          border: none; }
 
 .menu {
   height: 100vh;
@@ -428,28 +383,6 @@
 
 ::-webkit-scrollbar {
   width: 0px; }
-
-.main-title {
-  color: #fff;
-  font-size: 4rem;
-  line-height: 1.2;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Relative Bold', Arial, sans-serif;
-  font-weight: 400;
-  text-decoration: none; }
-
-.main-link {
-  text-decoration: none;
-  text-overflow: ellipsis;
-  font-weight: 400;
-  font-family: 'Relative Medium', Arial, sans-serif;
-  font-size: 25px;
-  border-bottom: 0px solid #ffffff;
-  color: white;
-  margin-left: -20px;
-  white-space: nowrap;
-  cursor: pointer; }
 
 .container {
   margin: 0 auto; }
