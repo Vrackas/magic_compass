@@ -10,6 +10,6 @@
     function HomepageController() {
         let vm = this;
 
-        // vm.weather = data;
+
     }
 })();

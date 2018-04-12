@@ -3,8 +3,10 @@
 
     angular.module('blocks.directives', [
         'app.header',
+        'app.header_language',
         'app.footer',
         'app.mobile_menu',
+
 
     ]);
 
