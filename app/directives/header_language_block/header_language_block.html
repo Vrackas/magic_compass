@@ -1,14 +1,16 @@
 <div id="header_language_block">
     <div class="container" layout="row" layout-align="end center">
 
-        <md-input-container class="md-block" flex-gt-sm>
-            <label>EN</label>
-            <md-select ng-model="user.state">
-                <md-option ng-repeat="state in states" value="{{state.abbrev}}">
-                    {{state.abbrev}}
-                </md-option>
-            </md-select>
-        </md-input-container>
+        <div>
+            <md-input-container class="md-block" flex-gt-sm>
+                <label>EN</label>
+                <md-select ng-model="user.state">
+                    <md-option ng-repeat="state in states" value="{{state.abbrev}}">
+                        {{state.abbrev}}
+                    </md-option>
+                </md-select>
+            </md-input-container>
+        </div>
         <button class="header_language_block_account">open account</button>
         <button class="header_language_block_client">Client Portal<i class="far fa-user"></i></button>
     </div>

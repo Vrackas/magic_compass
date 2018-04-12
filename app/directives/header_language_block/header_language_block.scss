@@ -2,21 +2,24 @@
   background: #282B33 !important;
   .container {
     height: 40px;
-    md-input-container {
-      width: 30px;
-      color: #ffffff;
-      float: left;
-      margin: 0;
-      margin-right: 50px;
-      md-select {
-        md-select-value {
-          border: none;
-          min-width: 50px !important;
-          span {
-            color: #B3B2B4;
-            min-width: 0px;
-            width: 20px;
+    div {
+      md-input-container {
+        width: 30px !important;
+        color: #ffffff;
+        float: left;
+        margin: 0;
+        margin-right: 50px;
+        md-select {
+          width: 30px !important;
+          md-select-value {
+            border: none;
+            min-width: 50px !important;
+            span {
+              color: #B3B2B4;
+              min-width: 0px;
+              width: 20px;
 
+            }
           }
         }
       }
@@ -35,14 +38,14 @@
       font-size: 13px;
 
     }
-    button.header_language_block_client{
+    button.header_language_block_client {
       margin-top: 1px;
       margin-left: 10px;
       float: left;
       border: none;
       background: transparent;
       color: #B3B2B4;
-      svg{
+      svg {
         margin-left: 3px;
       }
     }
