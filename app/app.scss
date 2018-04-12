@@ -1,13 +1,10 @@
-
 //templates
 @import "templates/homepage/homepage";
-
 //directives
 @import "directives/header_block/header_block";
 @import "directives/header_language_block/header_language_block";
 @import "directives/footer_block/footer_block";
 @import "directives/mobile_menu/mobile_menu";
-
 
 //componets
 ::-webkit-scrollbar {
@@ -17,7 +14,7 @@
 
 
 
-.container{
+.container {
   margin: 0 auto;
 }
 
