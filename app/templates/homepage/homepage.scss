@@ -1,7 +1,168 @@
 #homepage {
+  //font-family: 'Calibri';
+  $bg_get_started_block: rgb(77, 176, 192);
+  $white_text_color: rgb(255, 255, 255);
+  $yellow_bg_buttong_color: rgb(242, 192, 70);
+  $color_gray: rgb(127, 128, 129);
+  $why_trade_bg: rgb(239, 240, 241);
+  $platforms_text_color: rgb(76, 77, 78);
+  $bg_orange_btn: rgb(231, 144, 62);
 
+  $bg_empty_blue: rgb(52, 130, 186);
+  $bg_empty_orange: rgb(229, 103, 52);
+
+  $bg_empty_empty_light_orange: rgb(231, 144, 62);
+  $bg_empty_yellow: rgb(242, 192, 70);
+  $bg_empty_light_green: rgb(84, 188, 62);
+  $bg_empty_light_blue: rgb(78, 173, 190);
   //landing
+  .get_started_block {
+    background-color: $bg_get_started_block;
+    color: $white_text_color;
+    div {
+      text-align: center;
+      p:first-child {
+        font-weight: 600;
+        font-size: 23px;
+        margin-bottom: 0;
+      }
+      p:last-child {
+        margin-top: 0;
+        font-size: 11px;
+      }
+      a {
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 10px 20px;
+      }
+      a:first-child {
+        background-color: $yellow_bg_buttong_color;
+        border: 1px solid $yellow_bg_buttong_color;
 
+      }
+      a:last-child {
+        border: 1px solid $white_text_color;
+      }
+
+    }
+    div.buttons {
+      padding-right: 30px
+    }
+
+  }
+  div.why_trade {
+    padding: 20px 0;
+    background-color: $why_trade_bg;
+    p {
+      margin: 0;
+      text-transform: uppercase;
+      color: $color_gray;
+      text-align: center;
+      font-size: 23px;
+      font-weight: 600;
+    }
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        margin: 25px;
+        min-height: 125px;
+        img {
+          max-width: 81px;
+        }
+        span {
+          color: $color_gray;
+          font-weight: 600;
+          font-size: 13px;
+          text-align: center;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  div.platforms_block {
+    h1 {
+      padding-left: 60px;
+      margin-bottom: 0;
+    }
+    color: $platforms_text_color;
+    div.text_block {
+      padding: 40px 60px;
+      p:first-child {
+        font-weight: 500;
+        margin-top: 0;
+      }
+      p.text {
+        font-size: 15px;
+      }
+      a {
+        background-color: $bg_orange_btn;
+        color: $white_text_color;
+        display: inline-block;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 10px 45px;
+      }
+    }
+    div.img_parent_block {
+      padding-top: 40px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  div.images_block {
+    padding: 0 40px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .empty {
+      padding: 15px;
+      color: $white_text_color;
+    }
+    .empty_blue {
+      background-color: $bg_empty_blue;
+    }
+    .empty_orange {
+      background-color: $bg_empty_orange;
+    }
+    .layout-row {
+      height: 450px;
+    }
+
+    .empty_light_orange {
+      background-color: $bg_empty_orange;
+
+    }
+    .empty_yellow {
+      background-color: $bg_empty_yellow;
+    }
+    .empty_light_green {
+      background-color: $bg_empty_light_green;
+    }
+    .empty_light_blue {
+      background-color: $bg_empty_light_blue;
+    }
+  }
+
+  div.feedback {
+    padding: 40px;
+    .digit {
+      font-size: 23px;
+    }
+    .sub_title {
+      font-size: 9px;
+      color: rgb(121, 122, 123);
+    }
+    .layout-column {
+      text-align: center;
+    }
+  }
   //media
   @media (min-width: 1500px) {
 

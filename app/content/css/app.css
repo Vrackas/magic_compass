@@ -1,3 +1,110 @@
+#homepage .get_started_block {
+  background-color: #4db0c0;
+  color: white; }
+  #homepage .get_started_block div {
+    text-align: center; }
+    #homepage .get_started_block div p:first-child {
+      font-weight: 600;
+      font-size: 23px;
+      margin-bottom: 0; }
+    #homepage .get_started_block div p:last-child {
+      margin-top: 0;
+      font-size: 11px; }
+    #homepage .get_started_block div a {
+      display: block;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 10px 20px; }
+    #homepage .get_started_block div a:first-child {
+      background-color: #f2c046;
+      border: 1px solid #f2c046; }
+    #homepage .get_started_block div a:last-child {
+      border: 1px solid white; }
+  #homepage .get_started_block div.buttons {
+    padding-right: 30px; }
+
+#homepage div.why_trade {
+  padding: 20px 0;
+  background-color: #eff0f1; }
+  #homepage div.why_trade p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #7f8081;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600; }
+  #homepage div.why_trade ul {
+    padding: 0; }
+    #homepage div.why_trade ul li {
+      list-style: none;
+      margin: 25px;
+      min-height: 125px; }
+      #homepage div.why_trade ul li img {
+        max-width: 81px; }
+      #homepage div.why_trade ul li span {
+        color: #7f8081;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        text-transform: capitalize; }
+
+#homepage div.platforms_block {
+  color: #4c4d4e; }
+  #homepage div.platforms_block h1 {
+    padding-left: 60px;
+    margin-bottom: 0; }
+  #homepage div.platforms_block div.text_block {
+    padding: 40px 60px; }
+    #homepage div.platforms_block div.text_block p:first-child {
+      font-weight: 500;
+      margin-top: 0; }
+    #homepage div.platforms_block div.text_block p.text {
+      font-size: 15px; }
+    #homepage div.platforms_block div.text_block a {
+      background-color: #e7903e;
+      color: white;
+      display: inline-block;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 10px 45px; }
+  #homepage div.platforms_block div.img_parent_block {
+    padding-top: 40px; }
+  #homepage div.platforms_block img {
+    width: 100%; }
+
+#homepage div.images_block {
+  padding: 0 40px; }
+  #homepage div.images_block img {
+    width: 100%;
+    height: 100%; }
+  #homepage div.images_block .empty {
+    padding: 15px;
+    color: white; }
+  #homepage div.images_block .empty_blue {
+    background-color: #3482ba; }
+  #homepage div.images_block .empty_orange {
+    background-color: #e56734; }
+  #homepage div.images_block .layout-row {
+    height: 450px; }
+  #homepage div.images_block .empty_light_orange {
+    background-color: #e56734; }
+  #homepage div.images_block .empty_yellow {
+    background-color: #f2c046; }
+  #homepage div.images_block .empty_light_green {
+    background-color: #54bc3e; }
+  #homepage div.images_block .empty_light_blue {
+    background-color: #4eadbe; }
+
+#homepage div.feedback {
+  padding: 40px; }
+  #homepage div.feedback .digit {
+    font-size: 23px; }
+  #homepage div.feedback .sub_title {
+    font-size: 9px;
+    color: #797a7b; }
+  #homepage div.feedback .layout-column {
+    text-align: center; }
+
 .header-site {
   height: 86px;
   width: 100%;
