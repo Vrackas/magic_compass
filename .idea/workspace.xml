@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b7901e-c56c-40e5-a51a-7db0d7bbd6d6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/content/img/home_9.png" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.scss" afterPath="$PROJECT_DIR$/app/app.scss" />
-      <change beforePath="$PROJECT_DIR$/app/content/css/app.css" afterPath="$PROJECT_DIR$/app/content/css/app.css" />
-      <change beforePath="$PROJECT_DIR$/app/templates/homepage/homepage.html" afterPath="$PROJECT_DIR$/app/templates/homepage/homepage.html" />
-      <change beforePath="$PROJECT_DIR$/app/templates/homepage/homepage.scss" afterPath="$PROJECT_DIR$/app/templates/homepage/homepage.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +53,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/homepage/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="200">
@@ -86,6 +65,16 @@
                     <element signature="e#1931#2522#0" expanded="false" />
                     <element signature="e#2543#3172#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -119,6 +108,7 @@
         <option value="$PROJECT_DIR$/app/app.scss" />
         <option value="$PROJECT_DIR$/app/templates/homepage/homepage.html" />
         <option value="$PROJECT_DIR$/app/templates/homepage/homepage.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -168,62 +158,6 @@
             <path>
               <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
               <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="directives" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magic_compass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magic_compass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="homepage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -280,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1523459617690</updated>
       <workItem from="1523459619126" duration="8970000" />
-      <workItem from="1523562459583" duration="8465000" />
+      <workItem from="1523562459583" duration="8685000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1523461784108</created>
@@ -314,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17435000" />
+    <option name="totallyTimeSpent" value="17655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -639,6 +573,14 @@
             <element signature="e#1931#2522#0" expanded="false" />
             <element signature="e#2543#3172#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
