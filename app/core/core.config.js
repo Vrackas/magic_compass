@@ -22,26 +22,15 @@
                 templateUrl: 'templates/homepage/homepage.html',
                 controller: 'HomepageController',
                 controllerAs: 'vm',
-                // resolve: {
-                //     data: function (weather) {
-                //         return weather.get({
-                //                 q: 'Poltava,UA',
-                //                 appid: '264a4855a3aeeb5196ff38e3d006cbe9',
-                //                 mode: 'json',
-                //                 units: 'metric'
-                //             })
-                //             .then(function (res) {
-                //                 return res;
-                //             })
-                //     }
-                // }
+
             })
-            // .state('login', {
-            //     url: '/login',
-            //     templateUrl: 'templates/login/login.html',
-            //     controller: 'LoginController',
-            //     controllerAs: 'vm',
-            // })
+            .state('partners', {
+                url: '/partners',
+                templateUrl: 'templates/partners/partners.html',
+                controller: 'PartnersController',
+                controllerAs: 'vm',
+
+            });
 
 
     }
