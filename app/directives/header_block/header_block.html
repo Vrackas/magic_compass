@@ -3,37 +3,103 @@
         <div class="header-site-content">
             <div class="header-site-content-logo">
                 <a href='index.html' class="main-title " style="margin-top: 0; margin-left: 10px"><img
-                        src="../../content/img/logo_nav_bar.png" alt=""></a>
+                        src="content/img/logo_nav_bar.png" alt=""></a>
             </div>
             <div class="header-site-content-menu">
                 <ul>
-                    <li><md-input-container class="md-block" flex-gt-sm>
-                        <label>TRADING</label>
-                        <md-select ng-model="header.trading">
-                            <md-option ng-repeat="state in states" value="{{state.abbrev}}">
-                                {{state.abbrev}}
-                            </md-option>
-                        </md-select>
-                        </md-input-container></li>
-                    <li><md-input-container class="md-block" flex-gt-sm>
-                        <label>research & education</label>
-                        <md-select ng-model="header.research">
-                            <md-option ng-repeat="state in states" value="{{state.abbrev}}">
-                                {{state.abbrev}}
-                            </md-option>
-                        </md-select>
-                    </md-input-container>
+                    <li><a href="">TRADING</a>
+                        <ul class="header-site-content-menu_trading_list">
+                            <li><a href="">Overview</a></li>
+                            <li ><a href="" >Trading Platforms</a>
+                                <ul class="treading_list_1">
+                                    <li><a href="">Desktop MT4</a></li>
+                                    <li><a href="">Mobile MT4</a></li>
+                                    <li><a href="">Tablet MT4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Instruments</a>
+                                <ul class="treading_list_2">
+                                    <li><a href="">Forex</a></li>
+                                    <li><a href="">Metals</a></li>
+                                    <li><a href="">Spot Indecies</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Trading Account</a>
+                                <ul class="treading_list_3">
+                                    <li><a href="" ui-sref="trading_accounts">Trading Accounts</a></li>
+                                    <li><a href="">Accounts Comparison</a></li>
+                                    <li><a href="">Demo Account</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Funding</a>
+                                <ul class="treading_list_4">
+                                    <li><a href="">Deposits</a></li>
+                                    <li><a href="">Withdrawals</a></li>
+                                    <li><a href="">Payment Providers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Trading Conditions</a>
+                                <ul class="treading_list_5">
+                                    <li><a href="">Contract Specifications</a></li>
+                                    <li><a href="">Market Holidays</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">research & education</a>
+                        <ul class="header-site-content-menu_research_list">
+                            <li><a href="">Overview</a></li>
+                            <li><a href="">Market Research</a>
+                                <ul class="research_list_1">
+                                    <li><a href="">Market News</a></li>
+                                    <li><a href="">Technical Analysis</a></li>
+                                    <li><a href="">Fundamental Analysis</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Trading Tools</a>
+                                <ul class="research_list_2">
+                                    <li><a href="">Economic Calendar</a></li>
+                                    <li><a href="">Trading Calculators</a></li>
+                                    <li><a href="">VPS Service</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Magic Company Academy</a>
+                                <ul class="research_list_3">
+                                    <li><a href="">Video Tutorials</a></li>
+                                    <li><a href="">Ebooks</a></li>
+                                    <li><a href="">Glossary</a></li>
+                                    <li><a href="">Webinars</a></li>
+                                    <li><a href="">Seminars</a></li>
+                                    <li><a href="">Expos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                     <li><a href="">partners</a></li>
                     <li><a href="">invest</a></li>
-                    <li><md-input-container class="md-block" flex-gt-sm>
-                        <label>why us</label>
-                        <md-select ng-model="header.state">
-                            <md-option ng-repeat="state in states" value="{{state.abbrev}}">
-                                {{state.abbrev}}
-                            </md-option>
-                        </md-select>
-                    </md-input-container></li>
+                    <li><a href="">why us</a>
+                        <ul class="header-site-content-menu_why_list">
+                            <li><a href="">Why Magic Compass</a>
+                                <ul class="why_list_1">
+                                    <li><a href="">Why Trade with Us</a></li>
+                                    <li><a href="">Regulation</a></li>
+                                    <li><a href="">Liquidity Providers</a></li>
+                                    <li><a href="">Client Funds</a></li>
+                                    <li><a href="">Investor Compensation Fund</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">About Us</a>
+                                <ul class="why_list_2">
+                                    <li><a href="">About the Company</a></li>
+                                    <li><a href="">Company News & Event</a></li>
+                                    <li><a href="">Careers</a></li>
+                                    <li><a href="">Legal Documents</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -11,5 +11,7 @@
     function HeaderBlockController($state) {
         let vm = this;
 
+        vm.contentActive = false;
+
     }
 })();
