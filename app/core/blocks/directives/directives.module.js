@@ -6,6 +6,7 @@
         'app.header_language',
         'app.footer',
         'app.mobile_menu',
+        'app.get_started_block'
 
 
     ]);

@@ -1,4 +1,5 @@
 ;(function () {
+    'use strict';
     angular
         .module('app')
         .config(mainConfig)
@@ -22,26 +23,13 @@
                 templateUrl: 'templates/homepage/homepage.html',
                 controller: 'HomepageController',
                 controllerAs: 'vm',
-                // resolve: {
-                //     data: function (weather) {
-                //         return weather.get({
-                //                 q: 'Poltava,UA',
-                //                 appid: '264a4855a3aeeb5196ff38e3d006cbe9',
-                //                 mode: 'json',
-                //                 units: 'metric'
-                //             })
-                //             .then(function (res) {
-                //                 return res;
-                //             })
-                //     }
-                // }
             })
-            // .state('login', {
-            //     url: '/login',
-            //     templateUrl: 'templates/login/login.html',
-            //     controller: 'LoginController',
-            //     controllerAs: 'vm',
-            // })
+            .state('trading_accounts', {
+                url: '/trading_accounts',
+                templateUrl: 'templates/trading_accounts/trading_accounts.html',
+                controller: 'TradingAccountsController',
+                controllerAs: 'vm',
+            });
 
 
     }
