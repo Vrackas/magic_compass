@@ -87,6 +87,65 @@
   #homepage div.feedback .layout-column {
     text-align: center; }
 
+#trading_accounts .header_image_parent {
+  height: 350px;
+  background: url("../img/trading_accounts_0.png");
+  background-size: cover; }
+  #trading_accounts .header_image_parent img {
+    width: 100%; }
+
+#trading_accounts h3 {
+  font-weight: 400; }
+
+#trading_accounts .text_block h3 {
+  padding-left: 40px; }
+
+#trading_accounts .text_block p {
+  padding: 0 40px;
+  font-size: 11px; }
+
+#trading_accounts .tabs md-tabs .md-tab.md-active {
+  color: #e7903e; }
+
+#trading_accounts .tabs md-tabs md-ink-bar {
+  color: #e7903e;
+  background-color: #e7903e; }
+
+#trading_accounts .tabs md-tabs md-tabs-wrapper {
+  border-color: #e7903e; }
+
+#trading_accounts .tabs h3 {
+  margin: 0;
+  color: #e7903e;
+  font-size: 23px; }
+
+#trading_accounts .buttons_block {
+  padding-left: 20px; }
+  #trading_accounts .buttons_block a {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #e7903e; }
+
+#trading_accounts .warning_text {
+  font-size: 8px;
+  font-style: italic; }
+
+#trading_accounts .notes {
+  margin: 60px 20px; }
+  #trading_accounts .notes .notes_title {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold; }
+  #trading_accounts .notes ul {
+    padding: 0;
+    margin: 0; }
+    #trading_accounts .notes ul li {
+      font-size: 13px;
+      list-style: none; }
+
 .header-site {
   height: 87px;
   width: 100%;
