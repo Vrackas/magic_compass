@@ -17,7 +17,7 @@
   $bg_empty_light_blue: rgb(78, 173, 190);
   .header_image_parent {
     height: 350px;
-    background: url("../img/home_0.png");
+    background: url("../img/partner_background.png");
     background-size: cover;
     img {
       width: 100%;
@@ -26,7 +26,7 @@
   //landing
   .get_started_block {
     width: 100%;
-    background-color: $bg_get_started_block;
+    background-color: $bg_empty_orange;
     color: $white_text_color;
     div {
       text-align: center;
@@ -46,12 +46,12 @@
         padding: 10px 20px;
       }
       a:first-child {
-        background-color: $yellow_bg_buttong_color;
-        border: 1px solid $yellow_bg_buttong_color;
+        background-color: $bg_empty_blue;
+        border: 1px solid $bg_empty_blue;
 
       }
       a:last-child {
-        border: 1px solid $white_text_color;
+        border: 1px solid $bg_empty_blue;
       }
 
     }
@@ -63,17 +63,25 @@
   div.why_trade {
     padding: 20px 0;
     background-color: $why_trade_bg;
+    h3{
+      color: #4D4D4D;
+      font-size: 40px;
+      padding-left: 100px;
+    }
     p {
+
       margin: 0;
-      text-transform: uppercase;
-      color: $color_gray;
-      text-align: center;
-      font-size: 23px;
+      color: #4D4D4D;
+      text-align: left;
+      font-size: 20px;
       font-weight: 600;
     }
     ul {
       padding: 0;
       li {
+        p{
+          text-align: center;
+        }
         list-style: none;
         margin: 25px;
         min-height: 125px;
@@ -90,21 +98,26 @@
       }
     }
   }
+  .why_trade>p{
+    padding-left: 100px;
+  }
 
   div.platforms_block {
-    h1 {
+    h2 {
       padding-left: 60px;
       margin-bottom: 0;
+      margin-top: 60px;
     }
     color: $platforms_text_color;
     div.text_block {
       padding: 40px 60px;
       p:first-child {
-        font-weight: 500;
+        //font-weight: 500;
         margin-top: 0;
       }
       p.text {
         font-size: 15px;
+        padding-left: 60px;
       }
       a {
         background-color: $bg_orange_btn;
@@ -123,50 +136,42 @@
     }
   }
 
-  div.images_block {
+  div.contact_form_block {
+    margin-bottom: 140px;
     padding: 0 40px;
-    img {
-      width: 100%;
-      height: 100%;
-    }
     div{
+      input{
+        padding: 10px;
+        margin: 5px;
+        display: block;
+      }
       div{
-        div{
-          svg{
-            padding-left: 5px;
-            font-size: 14px;
-          }
+        padding-left: 75px;
+        input{
+          width: 640px;
+        }
+        p{
+          padding-left: 7px;
+          color: #4D4D4D;
+          font-size: 15px;
+        }
+        button{
+          margin-left: 7px;
+          background: #FBBF15;
+          padding: 12px 95px;
+          border: none;
+          color: white;
+        }
+      }
+      div:first-child{
+        input{
+          width:303px;
+          //box-sizing: border-box;
         }
       }
     }
 
-    .empty {
-      padding: 15px;
-      color: $white_text_color;
-    }
-    .empty_blue {
-      background-color: $bg_empty_blue;
-    }
-    .empty_orange {
-      background-color: $bg_empty_orange;
-    }
-    .layout-row {
-      height: 545px;
-    }
 
-    .empty_light_orange {
-      background-color: $bg_empty_orange;
-
-    }
-    .empty_yellow {
-      background-color: $bg_empty_yellow;
-    }
-    .empty_light_green {
-      background-color: $bg_empty_light_green;
-    }
-    .empty_light_blue {
-      background-color: $bg_empty_light_blue;
-    }
   }
 
   div.feedback {
