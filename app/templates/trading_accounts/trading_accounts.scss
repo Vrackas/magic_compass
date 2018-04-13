@@ -21,6 +21,7 @@
   }
 
   .tabs {
+    padding-left: 40px;
     md-tabs .md-tab.md-active {
       color: $md-tabs-active;
     }
@@ -36,41 +37,50 @@
       color: $md-tabs-active;
       font-size: 23px;
     }
-  }
-
-  .buttons_block {
-    padding-left: 20px;
-    a {
-      display: inline-block;
-      color: $white_text_color;
-      font-weight: 500;
-      text-transform: uppercase;
-      padding: 10px 20px;
-      background-color: $md-tabs-active;
-    }
-  }
-  .warning_text {
-    font-size: 8px;
-    font-style: italic;
-  }
-
-  .notes {
-    margin: 60px 20px;
-
-    .notes_title {
-      margin: 0;
-      font-size: 13px;
-      font-weight: bold;
-    }
-    ul {
-      padding: 0;
-      margin: 0;
-      li {
-        font-size: 13px;
-        list-style: none;
+    .table {
+      p {
+        word-wrap: break-word;
+      }
+      .layout-row {
+        border-bottom: 1px solid gainsboro;
       }
     }
+    .buttons_block {
+      margin-top: 40px;
+      a {
+        display: inline-block;
+        color: $white_text_color;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        background-color: $md-tabs-active;
+      }
+    }
+    .warning_text {
+      font-size: 8px;
+      font-style: italic;
+    }
 
+    .notes {
+      margin: 60px 0;
+
+      .notes_title {
+        margin: 0;
+        font-size: 13px;
+        font-weight: bold;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          font-size: 13px;
+          list-style: none;
+        }
+      }
+
+    }
   }
+
+
 
 }

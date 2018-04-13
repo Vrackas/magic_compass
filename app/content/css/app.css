@@ -104,47 +104,47 @@
   padding: 0 40px;
   font-size: 11px; }
 
-#trading_accounts .tabs md-tabs .md-tab.md-active {
-  color: #e7903e; }
-
-#trading_accounts .tabs md-tabs md-ink-bar {
-  color: #e7903e;
-  background-color: #e7903e; }
-
-#trading_accounts .tabs md-tabs md-tabs-wrapper {
-  border-color: #e7903e; }
-
-#trading_accounts .tabs h3 {
-  margin: 0;
-  color: #e7903e;
-  font-size: 23px; }
-
-#trading_accounts .buttons_block {
-  padding-left: 20px; }
-  #trading_accounts .buttons_block a {
-    display: inline-block;
-    color: white;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 10px 20px;
+#trading_accounts .tabs {
+  padding-left: 40px; }
+  #trading_accounts .tabs md-tabs .md-tab.md-active {
+    color: #e7903e; }
+  #trading_accounts .tabs md-tabs md-ink-bar {
+    color: #e7903e;
     background-color: #e7903e; }
-
-#trading_accounts .warning_text {
-  font-size: 8px;
-  font-style: italic; }
-
-#trading_accounts .notes {
-  margin: 60px 20px; }
-  #trading_accounts .notes .notes_title {
+  #trading_accounts .tabs md-tabs md-tabs-wrapper {
+    border-color: #e7903e; }
+  #trading_accounts .tabs h3 {
     margin: 0;
-    font-size: 13px;
-    font-weight: bold; }
-  #trading_accounts .notes ul {
-    padding: 0;
-    margin: 0; }
-    #trading_accounts .notes ul li {
+    color: #e7903e;
+    font-size: 23px; }
+  #trading_accounts .tabs .table p {
+    word-wrap: break-word; }
+  #trading_accounts .tabs .table .layout-row {
+    border-bottom: 1px solid gainsboro; }
+  #trading_accounts .tabs .buttons_block {
+    margin-top: 40px; }
+    #trading_accounts .tabs .buttons_block a {
+      display: inline-block;
+      color: white;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      background-color: #e7903e; }
+  #trading_accounts .tabs .warning_text {
+    font-size: 8px;
+    font-style: italic; }
+  #trading_accounts .tabs .notes {
+    margin: 60px 0; }
+    #trading_accounts .tabs .notes .notes_title {
+      margin: 0;
       font-size: 13px;
-      list-style: none; }
+      font-weight: bold; }
+    #trading_accounts .tabs .notes ul {
+      padding: 0;
+      margin: 0; }
+      #trading_accounts .tabs .notes ul li {
+        font-size: 13px;
+        list-style: none; }
 
 .header-site {
   height: 87px;
@@ -486,6 +486,9 @@
 
 ::-webkit-scrollbar {
   width: 0px; }
+
+a {
+  cursor: pointer; }
 
 .container {
   margin: 0 auto; }
