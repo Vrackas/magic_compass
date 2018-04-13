@@ -30,7 +30,7 @@
                 controller: 'PartnersController',
                 controllerAs: 'vm',
 
-            });
+            })
             .state('trading_accounts', {
                 url: '/trading_accounts',
                 templateUrl: 'templates/trading_accounts/trading_accounts.html',
