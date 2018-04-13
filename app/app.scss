@@ -1,17 +1,25 @@
+//variables
+@import "variables.scss";
+
 //templates
 @import "templates/homepage/homepage";
 @import "templates/partners/partners";
+@import "templates/trading_accounts/trading_accounts";
 //directives
 @import "directives/header_block/header_block";
 @import "directives/header_language_block/header_language_block";
 @import "directives/footer_block/footer_block";
 @import "directives/mobile_menu/mobile_menu";
+@import "directives/get_started_block/get_started_block";
 
 //componets
 ::-webkit-scrollbar {
   width: 0px;
 }
 
+a{
+  cursor: pointer;
+}
 
 
 
