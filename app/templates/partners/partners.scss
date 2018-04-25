@@ -111,6 +111,7 @@
     color: $platforms_text_color;
     div.text_block {
       padding: 40px 60px;
+      margin: 0 auto;
       p:first-child {
         //font-weight: 500;
         margin-top: 0;
@@ -140,6 +141,7 @@
     margin-bottom: 140px;
     padding: 0 40px;
     div{
+      margin: 0 auto;
       input{
         padding: 10px;
         margin: 5px;
