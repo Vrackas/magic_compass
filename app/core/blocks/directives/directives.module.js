@@ -7,7 +7,7 @@
         'app.footer',
         'app.mobile_menu',
         'app.get_started_block',
-        'app.header_slider_block'
+        'app.header_slider_block',
         'app.top_button'
 
 
