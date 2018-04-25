@@ -6,20 +6,13 @@
   .footer_block_account {
     height: 350px;
     width: 100%;
-
-    div.footer_block_account_left {
-      background: {
-        image: url("../../content/img/footer_demo account.png");
-        position: center;
-        size: cover;
-      }
+    div {
       width: 50%;
       height: 350px;
-      div {
+      div{
         background: transparent;
         width: 400px;
-        float: right;
-        margin-right: 100px;
+        height: auto;
         margin-top: 90px;
         h3 {
           text-transform: uppercase;
@@ -46,9 +39,22 @@
           height: 46px;
           text-transform: uppercase;
           color: white;
-          background: rgba(3, 131, 195, .8);
           border: none;
           border-radius: 3px;
+        }
+      }
+    }
+    div.footer_block_account_left {
+      background: {
+        image: url("../../content/img/footer_demo account.png");
+        position: center;
+        size: cover;
+      }
+      div {
+        float: right;
+        margin-right: 100px;
+        button {
+          background: rgba(3, 131, 195, .8);
         }
       }
     }
@@ -58,42 +64,11 @@
         position: center;
         size: cover;
       }
-      width: 50%;
-      height: 350px;
       div {
-        background: transparent;
-        width: 400px;
         float: left;
         margin-left: 100px;
-        margin-top: 90px;
-        h3 {
-          text-transform: uppercase;
-          font-size: 20px;
-          text-align: center;
-          color: white;
-          font: {
-            family: "Roboto";
-            weight: 400;
-          }
-        ;
-        }
-        p {
-          text-align: center;
-          color: white;
-          font: {
-            family: "Roboto";
-            weight: 200;
-            size: 18px;
-          }
-        }
         button {
-          width: 260px;
-          height: 46px;
-          text-transform: uppercase;
-          color: white;
           background: rgba(224, 132, 46, .8);
-          border: none;
-          border-radius: 3px;
         }
       }
     }
@@ -125,14 +100,14 @@
     width: 100%;
     height: auto;
     background: #022C2F;
-    li{
+    li {
       cursor: pointer;
     }
-    li:hover{
+    li:hover {
       text-decoration: underline;
     }
     .container {
-      ul{
+      ul {
         padding-left: 20px;
       }
       .footer_block_nav_trading {
@@ -182,7 +157,7 @@
       }
       .footer_block_nav_contact {
         margin-top: 30px;
-        a{
+        a {
           font-size: 20px;
           color: #B3B3B4;
           text-decoration: none;
@@ -192,12 +167,11 @@
           margin: 15px;
           div {
 
-
             width: 45px;
             height: 45px;
             background: #1B4143;
             border-radius: 50px;
-            svg{
+            svg {
               color: #B3B3B4;
               font-size: 25px;
             }
@@ -211,7 +185,7 @@
             height: 45px;
             background: #1B4143;
             border-radius: 50px;
-            svg{
+            svg {
               color: #B3B3B4;
               font-size: 25px;
             }
