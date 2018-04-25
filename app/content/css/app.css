@@ -633,12 +633,12 @@
           text-align: center;
           color: white;
           font-family: "Roboto";
-          font-weight: 200; }
+          font-weight: 400; }
         #footer-block .footer_block_account div.footer_block_account_left div p {
           text-align: center;
           color: white;
           font-family: "Roboto";
-          font-weight: 400;
+          font-weight: 200;
           font-size: 18px; }
         #footer-block .footer_block_account div.footer_block_account_left div button {
           width: 260px;
