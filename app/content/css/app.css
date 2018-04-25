@@ -419,24 +419,54 @@
 #header_language_block {
   background: #282B33 !important;
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  z-index: 10; }
   #header_language_block .container {
     height: 40px; }
-    #header_language_block .container div md-input-container {
-      width: 30px !important;
-      color: #ffffff;
-      float: left;
-      margin: 0;
-      margin-right: 50px; }
-      #header_language_block .container div md-input-container md-select {
-        width: 30px !important; }
-        #header_language_block .container div md-input-container md-select md-select-value {
-          border: none;
-          min-width: 50px !important; }
-          #header_language_block .container div md-input-container md-select md-select-value span {
-            color: #B3B2B4;
-            min-width: 0px;
-            width: 20px; }
+    #header_language_block .container div {
+      position: relative; }
+      #header_language_block .container div span {
+        color: #B3B2B4;
+        width: 50px;
+        display: block;
+        cursor: pointer; }
+      #header_language_block .container div span:after {
+        content: " ";
+        position: absolute;
+        border: 5px solid;
+        border-color: #F78B20 transparent transparent transparent;
+        top: 0.5em;
+        right: 0.8em;
+        transition: 0.3s; }
+      #header_language_block .container div .header_language_block_list {
+        position: absolute;
+        padding: 0;
+        margin-top: 17px;
+        margin-left: -5px;
+        border-top: 0px solid transparent;
+        width: 50px;
+        opacity: 0;
+        top: -9999em;
+        transition: .5s opacity;
+        list-style-type: none; }
+        #header_language_block .container div .header_language_block_list li {
+          float: none !important;
+          margin: 0;
+          padding: 10px 10px;
+          background: #393D49;
+          box-sizing: border-box;
+          transition: .5s background;
+          border-left: 2px solid transparent;
+          color: white;
+          text-transform: none;
+          font-size: 10px;
+          cursor: pointer; }
+        #header_language_block .container div .header_language_block_list li:hover {
+          background: #4E5465;
+          border-left: 2px solid #F78B20; }
+      #header_language_block .container div .active {
+        opacity: 1;
+        top: 0; }
     #header_language_block .container button.header_language_block_account {
       margin-top: 1px;
       float: left;
