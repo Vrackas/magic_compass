@@ -5,8 +5,7 @@
             'blocks.directives',
             'blocks.request',
             'blocks.services',
-            'blocks.filters',
-
+            'blocks.filters'
         ])
         .run(runBlock);
 
