@@ -13,90 +13,92 @@
 
                             <li id="trade_1"><a href="" ng-click="vm.subOpen('#trade_1')">Trading Platforms</a>
                                 <ul class="treading_list">
-                                    <li><a href="">Desktop MT4</a></li>
-                                    <li><a href="">Mobile MT4</a></li>
-                                    <li><a href="">Tablet MT4</a></li>
+                                    <li><a ui-sref="partners">Desktop MT4</a></li>
+                                    <li><a ui-sref="trading_accounts">Mobile MT4</a></li>
+                                    <li><a ui-sref="home">Tablet MT4</a></li>
                                 </ul>
                             </li>
                             <li id="trade_2"><a href="" ng-click="vm.subOpen('#trade_2')">Instruments</a>
                                 <ul class="treading_list">
-                                    <li><a href="">Forex</a></li>
-                                    <li><a href="">Metals</a></li>
-                                    <li><a href="">Spot Indecies</a></li>
+                                    <li><a ui-sref="trading_accounts">Forex</a></li>
+                                    <li><a ui-sref="partners" href="">Metals</a></li>
+                                    <li><a ui-sref="home">Spot Indecies</a></li>
                                 </ul>
                             </li>
                             <li id="trade_3"><a href="" ng-click="vm.subOpen('#trade_3')">Trading Account</a>
                                 <ul class="treading_list">
                                     <li><a href="" ui-sref="trading_accounts">Trading Accounts</a></li>
-                                    <li><a href="">Accounts Comparison</a></li>
-                                    <li><a href="">Demo Account</a></li>
+                                    <li><a ui-sref="partners">Accounts Comparison</a></li>
+                                    <li><a ui-sref="home">Demo Account</a></li>
                                 </ul>
                             </li>
                             <li id="trade_4"><a href="" ng-click="vm.subOpen('#trade_4')">Funding</a>
                                 <ul class="treading_list">
                                     <li><a href="">Deposits</a></li>
                                     <li><a href="">Withdrawals</a></li>
-                                    <li><a href="">Payment Providers</a></li>
+                                    <li><a ui-sref="home">Payment Providers</a></li>
                                 </ul>
                             </li>
                             <li id="trade_5"><a href="" ng-click="vm.subOpen('#trade_5')">Trading Conditions</a>
                                 <ul class="treading_list">
-                                    <li><a href="">Contract Specifications</a></li>
-                                    <li><a href="">Market Holidays</a></li>
-                                    <li><a href="">FAQ</a></li>
+                                    <li><a ui-sref="trading_accounts">Contract Specifications</a></li>
+                                    <li><a href="" ui-sref="partners">Market Holidays</a></li>
+                                    <li><a ui-sref="home">FAQ</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="" ng-click="vm.open('.header-site-content-menu_research_list')">research & education</a>
+                    <li><a href="" ng-click="vm.open('.header-site-content-menu_research_list')">research &
+                        education</a>
                         <ul class="header-site-content-menu_research_list">
                             <li><a href="">Overview</a></li>
                             <li id="research_1"><a href="" ng-click="vm.subOpen('#research_1')">Market Research</a>
                                 <ul class="research_list">
-                                    <li><a href="">Market News</a></li>
-                                    <li><a href="">Technical Analysis</a></li>
-                                    <li><a href="">Fundamental Analysis</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Market News</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Technical Analysis</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Fundamental Analysis</a></li>
                                 </ul>
                             </li>
                             <li id="research_2"><a href="" ng-click="vm.subOpen('#research_2')">Trading Tools</a>
                                 <ul class="research_list">
-                                    <li><a href="">Economic Calendar</a></li>
-                                    <li><a href="">Trading Calculators</a></li>
-                                    <li><a href="">VPS Service</a></li>
+                                    <li><a ui-sref="home">Economic Calendar</a></li>
+                                    <li><a ui-sref="home" href="">Trading Calculators</a></li>
+                                    <li><a ui-sref="home" href="">VPS Service</a></li>
                                 </ul>
                             </li>
-                            <li id="research_3"><a href="" ng-click="vm.subOpen('#research_3')">Magic Company Academy</a>
+                            <li id="research_3"><a href="" ng-click="vm.subOpen('#research_3')">Magic Company
+                                Academy</a>
                                 <ul class="research_list">
-                                    <li><a href="">Video Tutorials</a></li>
-                                    <li><a href="">Ebooks</a></li>
-                                    <li><a href="">Glossary</a></li>
-                                    <li><a href="">Webinars</a></li>
-                                    <li><a href="">Seminars</a></li>
-                                    <li><a href="">Expos</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Video Tutorials</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Ebooks</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Glossary</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Webinars</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Seminars</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Expos</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li><a href="" ui-sref="partners">partners</a></li>
-                    <li><a href="">invest</a></li>
+                    <li><a href="" ui-sref="partners">invest</a></li>
                     <li><a href="" ng-click="vm.open('.header-site-content-menu_why_list')">why us</a>
                         <ul class="header-site-content-menu_why_list">
                             <li id="why_1"><a href="" ng-click="vm.subOpen('#why_1')">Why Magic Compass</a>
                                 <ul class="why_list">
-                                    <li><a href="">Why Trade with Us</a></li>
-                                    <li><a href="">Regulation</a></li>
-                                    <li><a href="">Liquidity Providers</a></li>
-                                    <li><a href="">Client Funds</a></li>
-                                    <li><a href="">Investor Compensation Fund</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Why Trade with Us</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Regulation</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Liquidity Providers</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Client Funds</a></li>
+                                    <li><a href="" ui-sref="trading_accounts">Investor Compensation Fund</a></li>
                                 </ul>
                             </li>
                             <li id="why_2"><a href="" ng-click="vm.subOpen('#why_2')">About Us</a>
                                 <ul class="why_list">
-                                    <li><a href="">About the Company</a></li>
-                                    <li><a href="">Company News & Event</a></li>
-                                    <li><a href="">Careers</a></li>
-                                    <li><a href="">Legal Documents</a></li>
-                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="" ui-sref="partners">About the Company</a></li>
+                                    <li><a href="" ui-sref="partners">Company News & Event</a></li>
+                                    <li><a href="" ui-sref="partners">Careers</a></li>
+                                    <li><a href="" ui-sref="partners">Legal Documents</a></li>
+                                    <li><a href="" ui-sref="partners">Contact Us</a></li>
                                 </ul>
                             </li>
                         </ul>
