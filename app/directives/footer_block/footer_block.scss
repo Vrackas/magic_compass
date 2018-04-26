@@ -96,101 +96,25 @@
       }
     }
   }
-  .footer_block_nav {
+  .footer_block_info {
     width: 100%;
     height: auto;
     background: #022C2F;
-    li {
-      cursor: pointer;
-    }
-    li:hover {
-      text-decoration: underline;
-    }
+
     .container {
-      ul {
-        padding-left: 20px;
-      }
-      .footer_block_nav_trading {
-        width: 210px;
+      p, a, li{
         color: #B3B3B4;
-        margin-bottom: 40px;
-        h3 {
-          color: #F58A21;
-          text-transform: uppercase;
-        }
-        h4 {
-          color: #B3B3B4;
-          margin-bottom: 0;
-        }
-        ul {
-          margin: 0;
-        }
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        line-height: 27px;
+        text-decoration: none;
+        transition: .3s all;
       }
-      .footer_block_nav_research {
-        width: 220px;
-        color: #B3B3B4;
-        h3 {
-          color: #F58A21;
-          text-transform: uppercase;
-        }
-        h4 {
-          color: #B3B3B4;
-          margin-bottom: 0;
-        }
-        ul {
-          margin: 0;
-        }
-      }
-      .footer_block_nav_partners {
-        color: #B3B3B4;
-        h3 {
-          color: #F58A21;
-          text-transform: uppercase;
-        }
-        h4 {
-          color: #B3B3B4;
-          margin-bottom: 0;
-        }
-        ul {
-          margin: 0;
-        }
-      }
-      .footer_block_nav_contact {
-        margin-top: 30px;
-        a {
-          font-size: 20px;
-          color: #B3B3B4;
-          text-decoration: none;
-          margin: 10px;
-        }
-        .footer_block_nav_contact_email {
-          margin: 15px;
-          div {
 
-            width: 45px;
-            height: 45px;
-            background: #1B4143;
-            border-radius: 50px;
-            svg {
-              color: #B3B3B4;
-              font-size: 25px;
-            }
-          }
-        }
-        .footer_block_nav_contact_phone {
-          margin: 15px;
-          div {
-
-            width: 45px;
-            height: 45px;
-            background: #1B4143;
-            border-radius: 50px;
-            svg {
-              color: #B3B3B4;
-              font-size: 25px;
-            }
-          }
-        }
+      a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 15px;
       }
     }
   }
