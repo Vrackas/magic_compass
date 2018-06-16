@@ -105,6 +105,29 @@
                     </li>
                 </ul>
             </div>
+            <div class="header_wrapper">
+                <div class="header_wrapper_block" layout="column" layout-align="center space-between">
+                    <div class="header-site-content-menu">
+                        <ul layout="column">
+                            <li><a ui-sref="">TRADING</a></li>
+                            <li><a ui-sref="">research & education</a></li>
+                            <li><a ui-sref="">partners</a></li>
+                            <li><a ui-sref="">invest</a></li>
+                            <li><a ui-sref="">why us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header_wrapper_bottom">
+
+                    </div>
+                </div>
+                <div class="header_wrapper_close">
+                    <button class="main_button" ng-click="vm.headerWrapperClose()"><i class="fas fa-times"></i></button>
+                </div>
+
+            </div>
+            <div class="header_wrapper_open">
+                <button class="main_button" ng-click="vm.headerWrapperOpen()"><i class="fas fa-bars"></i></button>
+            </div>
         </div>
     </div>
 

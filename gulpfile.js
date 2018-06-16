@@ -32,3 +32,4 @@ gulp.task('start', ['sass', 'browser-sync'], function () {
     gulp.watch('app/directives/*/*.scss', ['sass', 'browser-reload']);
     gulp.watch('app/**/*.js', ['browser-reload']);
 });
+gulp.task('default', ['start']);

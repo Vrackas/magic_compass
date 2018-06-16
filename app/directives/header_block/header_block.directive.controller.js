@@ -15,6 +15,8 @@
 
         vm.open = open;
         vm.subOpen = subOpen;
+        vm.headerWrapperOpen = headerWrapperOpen;
+        vm.headerWrapperClose = headerWrapperClose;
 
         function open(style) {
             console.log($(style));
@@ -41,6 +43,19 @@
             if(li.classList.contains('active')){
                 li.removeClass('active');
             }
+        }
+
+        function headerWrapperOpen() {
+            $('.header_wrapper').addClass('active');
+            $(document).mouseup(function (e) {
+                let container = $('.header_wrapper');
+                if (container.has(e.target).length === 0){
+                    container.removeClass('active');
+                }
+            });
+        }
+        function headerWrapperClose() {
+            $('.header_wrapper').removeClass('active');
         }
 
     }

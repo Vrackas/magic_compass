@@ -9,7 +9,7 @@
     div {
       width: 50%;
       height: 350px;
-      div{
+      div {
         background: transparent;
         width: 400px;
         height: auto;
@@ -102,7 +102,7 @@
     background: #022C2F;
 
     .container {
-      p, a, li{
+      p, a, li {
         color: #B3B3B4;
         font-family: "Roboto", sans-serif;
         font-size: 13px;
@@ -111,7 +111,7 @@
         transition: .3s all;
       }
 
-      a:hover{
+      a:hover {
         cursor: pointer;
         text-decoration: underline;
         font-size: 13.5px;
@@ -167,7 +167,7 @@
         li:first-child {
           border: none;
         }
-        li:hover{
+        li:hover {
           text-decoration: underline;
         }
       }
@@ -199,18 +199,132 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
   footer {
+    .footer_block_account {
+      div {
+        div {
+          width: 320px !important;
+        }
 
+      }
+      .footer_block_account_left {
+        div {
+          margin-right: 50px !important;
+        }
+
+      }
+      .footer_block_account_right {
+        div {
+          margin-left: 50px !important
+        }
+      ;
+      }
+
+    }
   }
 }
 
 @media (min-width: 540px) and (max-width: 768px) {
   footer {
+    .footer_block_account {
+      height: auto;
+      flex-direction: column;
+      div {
+        width: 100% !important;
 
+        div {
+          float: none !important;
+          margin: 90px auto 60px !important;
+          width: 320px !important;
+        }
+
+      }
+    }
+    .footer_block_help {
+      margin-top: 160px;
+    }
+    .footer_block_info {
+      div {
+        flex-direction: column;
+        max-width: 100% !important;
+        div {
+          li{
+            text-align: justify;
+          }
+          div {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+    .footer_block_warning{
+      p{
+        text-align: justify;
+      }
+    }
+    .footer_block_reserved {
+      height: 50px !important;
+
+    }
   }
 }
 
 @media (max-width: 540px) {
   footer {
+    .footer_block_account {
+      height: auto;
+      flex-direction: column;
+      div {
+        width: 100% !important;
 
+        div {
+          float: none !important;
+          margin: 90px auto 60px !important;
+          width: 300px !important;
+        }
+
+      }
+    }
+    .footer_block_help {
+      height: 160px !important;
+      margin-top: 160px;
+      div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .footer_block_info {
+      div {
+        flex-direction: column;
+        max-width: 100% !important;
+        div {
+          li {
+            text-align: justify;
+          }
+          div {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+    .footer_block_warning{
+      p{
+        text-align: justify;
+      }
+    }
+    .footer_block_reserved {
+      height: 80px !important;
+      div.container {
+        display: flex;
+        flex-direction: column;
+        ul {
+          padding: 0;
+          li{
+            font-size: 11px !important;
+          }
+        }
+      }
+
+    }
   }
 }
