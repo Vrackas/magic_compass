@@ -16,7 +16,7 @@
     }
     p {
       padding: 0 40px;
-      font-size: 11px;
+      font-size: 13px;
     }
   }
 
@@ -81,6 +81,39 @@
     }
   }
 
+  //media
 
+  @media (min-width: 1500px) {
+
+  }
+
+  @media (min-width: 1200px) and (max-width: 1499px) {
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .tabs {
+      padding-left: 0;
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: 540px) and (max-width: 768px) {
+    .tabs {
+      padding-left: 0;
+      padding-bottom: 200px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .tabs {
+      padding-left: 0;
+      padding-bottom: 250px;
+    }
+  }
 
 }

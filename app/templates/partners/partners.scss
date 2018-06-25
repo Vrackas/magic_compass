@@ -63,7 +63,7 @@
   div.why_trade {
     padding: 20px 0;
     background-color: $why_trade_bg;
-    h3{
+    h3 {
       color: #4D4D4D;
       font-size: 40px;
       padding-left: 100px;
@@ -79,7 +79,7 @@
     ul {
       padding: 0;
       li {
-        p{
+        p {
           text-align: center;
         }
         list-style: none;
@@ -98,7 +98,7 @@
       }
     }
   }
-  .why_trade>p{
+  .why_trade > p {
     padding-left: 100px;
   }
 
@@ -140,24 +140,24 @@
   div.contact_form_block {
     margin-bottom: 140px;
     padding: 0 40px;
-    div{
+    div {
       margin: 0 auto;
-      input{
+      input {
         padding: 10px;
         margin: 5px;
         display: block;
       }
-      div{
+      div {
         padding-left: 75px;
-        input{
+        input {
           width: 640px;
         }
-        p{
+        p {
           padding-left: 7px;
           color: #4D4D4D;
           font-size: 15px;
         }
-        button{
+        button {
           margin-left: 7px;
           background: #FBBF15;
           padding: 12px 95px;
@@ -165,14 +165,13 @@
           color: white;
         }
       }
-      div:first-child{
-        input{
-          width:303px;
+      div:first-child {
+        input {
+          width: 303px;
           //box-sizing: border-box;
         }
       }
     }
-
 
   }
 
@@ -203,13 +202,111 @@
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
-
+    .platforms_block {
+      .layout-row {
+        .flex-80 {
+          max-width: 100%;
+        }
+      }
+    }
+    .contact_form_block{
+      .flex-70{
+        max-width: 85%;
+        div{
+          padding-left: 0;
+        }
+      }
+    }
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
+    .get_started_block{
+      .flex-70{
+        max-width: 100%;
+      }
+    }
+    .why_trade{
+      ul{
+        flex-wrap: wrap;
+      }
+    }
+    .platforms_block {
+      .layout-row {
+        .flex-80 {
+          max-width: 100%;
+          p.text,h2{
+            padding-left: 0 !important;
+          }
+        }
+      }
+    }
+    .contact_form_block{
+      .flex-70{
+        max-width: 100%;
+        padding-bottom: 100px;
+        div:nth-child(1){
+          flex-direction: column;
+        }
+        div{
+          padding-left: 0;
+          input{
+            width: 400px !important;
+          }
 
+        }
+      }
+    }
   }
 
   @media (max-width: 540px) {
+    .get_started_block{
+      .flex-70{
+        max-width: 100%;
+      }
+    }
+    .why_trade{
+      h3,p{
+        padding: 0 !important;
+        text-align: center;
+      }
+      ul{
+        flex-wrap: wrap;
+      }
+    }
+    .platforms_block {
+      padding: 40px 0 !important;
+      .layout-row {
+        .flex-80 {
+          padding: 0;
+          max-width: 100%;
+          p.text,h2{
+            padding-left: 0 !important;
+
+          }
+          p.text{
+            text-align: justify;
+          }
+        }
+      }
+    }
+    .contact_form_block{
+      padding: 0 !important;
+      .flex-70{
+        max-width: 100%;
+        padding-bottom: 100px;
+        div:nth-child(1){
+          flex-direction: column;
+        }
+        div{
+          padding-left: 0;
+          input{
+            width: 300px !important;
+            margin: 5px 0;
+            box-sizing: border-box;
+          }
+
+        }
+      }
+    }
   }
 }
