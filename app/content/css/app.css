@@ -1,3 +1,52 @@
+::-webkit-scrollbar {
+  width: 0px; }
+
+a {
+  cursor: pointer; }
+
+.btn_anim {
+  position: relative; }
+
+.btn_anim:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  background-color: rgba(250, 248, 255, 0.49);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn_anim:hover::before {
+  opacity: 1;
+  width: 100%; }
+
+.title_h2 {
+  font-size: 32px;
+  padding-left: 60px;
+  margin-bottom: 0;
+  color: #4c4d4e; }
+
+.subtitle_h2 {
+  padding-left: 60px;
+  margin-bottom: 0;
+  color: #4c4d4e; }
+
+.text {
+  color: #4c4d4e;
+  font-size: 15px; }
+  .text.sub_header {
+    color: #7f8081;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize; }
+
 #homepage .header_image_parent {
   height: 350px;
   background: url("../img/home_0.png");
@@ -20,39 +69,29 @@
     #homepage div.why_trade ul li {
       list-style: none;
       margin: 25px;
-      min-height: 125px; }
+      min-height: 125px;
+      max-width: 120px; }
       #homepage div.why_trade ul li img {
         max-width: 81px; }
-      #homepage div.why_trade ul li span {
-        color: #7f8081;
-        font-weight: 600;
-        font-size: 13px;
-        text-align: center;
-        text-transform: capitalize; }
 
-#homepage div.platforms_block {
-  color: #4c4d4e; }
-  #homepage div.platforms_block h1 {
-    padding-left: 60px;
-    margin-bottom: 0; }
-  #homepage div.platforms_block div.text_block {
-    padding: 40px 60px; }
-    #homepage div.platforms_block div.text_block p:first-child {
-      font-weight: 500;
-      margin-top: 0; }
-    #homepage div.platforms_block div.text_block p.text {
-      font-size: 15px; }
-    #homepage div.platforms_block div.text_block a {
-      background-color: #e7903e;
-      color: white;
-      display: inline-block;
-      font-weight: 500;
-      text-transform: uppercase;
-      padding: 10px 45px; }
-  #homepage div.platforms_block div.img_parent_block {
-    padding-top: 40px; }
-  #homepage div.platforms_block img {
-    width: 100%; }
+#homepage div.platforms_block div.text_block {
+  padding: 40px 60px; }
+  #homepage div.platforms_block div.text_block p:first-child {
+    font-weight: 500;
+    margin-top: 0; }
+  #homepage div.platforms_block div.text_block a {
+    background-color: #e7903e;
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 45px; }
+
+#homepage div.platforms_block div.img_parent_block {
+  padding-top: 40px; }
+
+#homepage div.platforms_block img {
+  width: 100%; }
 
 #homepage div.images_block {
   padding: 0 40px; }
@@ -210,48 +249,27 @@
   #partners div.why_trade ul {
     padding: 0; }
     #partners div.why_trade ul li {
+      text-align: center;
       list-style: none;
       margin: 25px;
-      min-height: 125px; }
-      #partners div.why_trade ul li p {
-        text-align: center; }
+      min-height: 125px;
+      max-width: 120px; }
       #partners div.why_trade ul li img {
         max-width: 81px; }
-      #partners div.why_trade ul li span {
-        color: #7f8081;
-        font-weight: 600;
-        font-size: 13px;
-        text-align: center;
-        text-transform: capitalize; }
 
 #partners .why_trade > p {
   padding-left: 100px; }
 
-#partners div.platforms_block {
-  color: #4c4d4e; }
-  #partners div.platforms_block h2 {
-    padding-left: 60px;
-    margin-bottom: 0;
-    margin-top: 60px; }
-  #partners div.platforms_block div.text_block {
-    padding: 40px 60px;
-    margin: 0 auto; }
-    #partners div.platforms_block div.text_block p:first-child {
-      margin-top: 0; }
-    #partners div.platforms_block div.text_block p.text {
-      font-size: 15px;
-      padding-left: 60px; }
-    #partners div.platforms_block div.text_block a {
-      background-color: #e7903e;
-      color: white;
-      display: inline-block;
-      font-weight: 500;
-      text-transform: uppercase;
-      padding: 10px 45px; }
-  #partners div.platforms_block div.img_parent_block {
-    padding-top: 40px; }
-  #partners div.platforms_block img {
-    width: 100%; }
+#partners div.main_block h2 {
+  margin-top: 60px; }
+
+#partners div.main_block div.text_block {
+  padding: 40px 60px;
+  margin: 0 auto; }
+  #partners div.main_block div.text_block p:first-child {
+    margin-top: 0; }
+  #partners div.main_block div.text_block p.text {
+    padding-left: 60px; }
 
 #partners div.contact_form_block {
   margin-bottom: 140px;
@@ -354,15 +372,12 @@
   #trading_accounts .header_image_parent img {
     width: 100%; }
 
-#trading_accounts h3 {
-  font-weight: 400; }
-
 #trading_accounts .text_block h3 {
+  font-weight: 400;
   padding-left: 40px; }
 
 #trading_accounts .text_block p {
-  padding: 0 40px;
-  font-size: 13px; }
+  padding: 0 40px; }
 
 #trading_accounts .tabs {
   padding-left: 40px; }
@@ -431,8 +446,11 @@
   .header-site .header-site-content .header-site-content-logo {
     float: left;
     width: 250px; }
-    .header-site .header-site-content .header-site-content-logo img {
-      height: 87px; }
+    .header-site .header-site-content .header-site-content-logo a {
+      margin-top: 0;
+      margin-left: 10px; }
+      .header-site .header-site-content .header-site-content-logo a img {
+        height: 87px; }
   .header-site .header-site-content .header-site-content-menu {
     float: right;
     margin-right: 15px; }
@@ -735,8 +753,8 @@
     #header_language_block .container button.header_language_block_account {
       margin-top: 1px;
       float: left;
-      height: 26px;
-      width: 122px;
+      min-height: 26px;
+      padding: 0 12px;
       background: transparent;
       border-radius: 2px;
       border: 1px solid #C37323;
@@ -788,7 +806,7 @@
           border: none;
           border-radius: 3px; }
     #footer-block .footer_block_account div.footer_block_account_left {
-      background-image: url("../../content/img/footer_demo account.png");
+      background-image: url("../../content/img/footer/footer_demo account.png");
       background-position: center;
       background-size: cover; }
       #footer-block .footer_block_account div.footer_block_account_left div {
@@ -797,7 +815,7 @@
         #footer-block .footer_block_account div.footer_block_account_left div button {
           background: rgba(3, 131, 195, 0.8); }
     #footer-block .footer_block_account div.footer_block_account_right {
-      background-image: url("../../content/img/footer_open account.png");
+      background-image: url("../../content/img/footer/footer_open account.png");
       background-position: center;
       background-size: cover; }
       #footer-block .footer_block_account div.footer_block_account_right div {
@@ -1060,34 +1078,6 @@
 
 .top_button .top_button_click:hover {
   background: #f7b44c; }
-
-::-webkit-scrollbar {
-  width: 0px; }
-
-a {
-  cursor: pointer; }
-
-.btn_anim {
-  position: relative; }
-
-.btn_anim:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  background-color: rgba(250, 248, 255, 0.49);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-.btn_anim:hover::before {
-  opacity: 1;
-  width: 100%; }
 
 .container {
   margin: 0 auto; }

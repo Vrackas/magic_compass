@@ -64,8 +64,9 @@
     button.header_language_block_account {
       margin-top: 1px;
       float: left;
-      height: 26px;
-      width: 122px;
+      min-height: 26px;
+      //width: 122px;
+      padding: 0 12px;
       background: transparent;
       border-radius: 2px;
       border: 1px solid #C37323;

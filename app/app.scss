@@ -1,10 +1,17 @@
 //variables
 @import "variables.scss";
 
+
+//componets
+@import "components.scss";
+
+
 //templates
 @import "templates/homepage/homepage";
 @import "templates/partners/partners";
 @import "templates/trading_accounts/trading_accounts";
+
+
 //directives
 @import "directives/header_block/header_block";
 @import "directives/header_language_block/header_language_block";
@@ -12,38 +19,6 @@
 @import "directives/mobile_menu/mobile_menu";
 @import "directives/get_started_block/get_started_block";
 @import "directives/top_button/top_button";
-
-//componets
-::-webkit-scrollbar {
-  width: 0px;
-}
-
-a{
-  cursor: pointer;
-}
-
-.btn_anim{
-  position: relative;
-}
-.btn_anim:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  background-color: rgba(250, 248, 255, 0.49);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.btn_anim:hover::before{
-  opacity: 1;
-  width: 100%;
-}
 
 
 .container {

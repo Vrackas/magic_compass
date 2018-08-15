@@ -27,34 +27,23 @@
         list-style: none;
         margin: 25px;
         min-height: 125px;
+        max-width: 120px;
         img {
           max-width: 81px;
-        }
-        span {
-          color: $color_gray;
-          font-weight: 600;
-          font-size: 13px;
-          text-align: center;
-          text-transform: capitalize;
         }
       }
     }
   }
 
   div.platforms_block {
-    h1 {
-      padding-left: 60px;
-      margin-bottom: 0;
+    h2 {
+
     }
-    color: $platforms_text_color;
     div.text_block {
       padding: 40px 60px;
       p:first-child {
         font-weight: 500;
         margin-top: 0;
-      }
-      p.text {
-        font-size: 15px;
       }
       a {
         background-color: $bg_orange_btn;
@@ -225,8 +214,6 @@
     .images_block {
       img {
         height: inherit !important;
-        //display: none;
-
       }
       .flex-25{
         max-width: 100%;

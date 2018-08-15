@@ -8,9 +8,9 @@
     //         .defaultIconSet('bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-content-symbol.svg', 24);
     // }]);
 
-    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider','$translateProvider'];
 
-    function mainConfig($stateProvider, $urlRouterProvider) {
+    function mainConfig($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
 
 
         $urlRouterProvider.otherwise('/home');
@@ -38,7 +38,19 @@
                 controllerAs: 'vm',
             });
 
+        $translateProvider.registerAvailableLanguageKeys(['en', 'ru'], {
+            'en-*': 'en',
+            'ru-*': 'ru'
+        });
 
+
+        $translateProvider.useStaticFilesLoader({
+            prefix: 'language/',
+            suffix: '.json'
+        });
+
+        $translateProvider.preferredLanguage('en');
+        $translateProvider.useSanitizeValueStrategy(null);
     }
 
 

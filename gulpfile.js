@@ -30,6 +30,7 @@ gulp.task('start', ['sass', 'browser-sync'], function () {
     gulp.watch('app/templates/*/*.scss', ['sass', 'browser-reload']);
     gulp.watch('app/app.scss', ['sass', 'browser-reload']);
     gulp.watch('app/directives/*/*.scss', ['sass', 'browser-reload']);
+    gulp.watch('app/*.scss', ['sass', 'browser-reload']);
     gulp.watch('app/**/*.js', ['browser-reload']);
 });
 gulp.task('default', ['start']);

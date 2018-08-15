@@ -6,13 +6,19 @@
         .module('app')
         .controller('headerLanguageBlockController', headerLanguageBlockController);
 
-    headerLanguageBlockController.$inject = ['$state'];
+    headerLanguageBlockController.$inject = ['$state', '$translate'];
 
-    function headerLanguageBlockController($state) {
+    function headerLanguageBlockController($state , $translate) {
         let vm = this;
 
 
         vm.openLang = openLang;
+        vm.changeLang = changeLang;
+
+        /**
+         *
+         * @param style
+         */
 
         function openLang(style) {
             console.log($(style));
@@ -24,6 +30,16 @@
                     container.removeClass('active');
                 }
             });
+        }
+
+
+        /**
+         *
+         * @param lang
+         */
+
+        function changeLang(lang) {
+            $translate.use(lang);
         }
     }
 })();

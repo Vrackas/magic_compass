@@ -79,21 +79,14 @@
     ul {
       padding: 0;
       li {
-        p {
           text-align: center;
-        }
+
         list-style: none;
         margin: 25px;
         min-height: 125px;
+        max-width: 120px;
         img {
           max-width: 81px;
-        }
-        span {
-          color: $color_gray;
-          font-weight: 600;
-          font-size: 13px;
-          text-align: center;
-          text-transform: capitalize;
         }
       }
     }
@@ -102,38 +95,19 @@
     padding-left: 100px;
   }
 
-  div.platforms_block {
+  div.main_block {
     h2 {
-      padding-left: 60px;
-      margin-bottom: 0;
       margin-top: 60px;
     }
-    color: $platforms_text_color;
     div.text_block {
       padding: 40px 60px;
       margin: 0 auto;
       p:first-child {
-        //font-weight: 500;
         margin-top: 0;
       }
       p.text {
-        font-size: 15px;
         padding-left: 60px;
       }
-      a {
-        background-color: $bg_orange_btn;
-        color: $white_text_color;
-        display: inline-block;
-        font-weight: 500;
-        text-transform: uppercase;
-        padding: 10px 45px;
-      }
-    }
-    div.img_parent_block {
-      padding-top: 40px;
-    }
-    img {
-      width: 100%;
     }
   }
 
