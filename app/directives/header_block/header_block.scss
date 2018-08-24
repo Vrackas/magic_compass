@@ -104,105 +104,64 @@
             li:nth-child(1) {
               border-top: 2px solid #F78B20;;
             }
-            li::after {
-              content: " ";
-              position: absolute;
-              border: 5px solid;
-              border-color: #ffffff transparent transparent transparent !important;
-              top: 0.8em !important;
-              right: 0.5em !important;
-              transition: 0.3s;
-            }
-            li:hover::after {
-              transform: scaleY(-1);
-              top: 0.4em;
-            }
+            //li::after {
+            //  content: " ";
+            //  position: absolute;
+            //  border: 5px solid;
+            //  border-color: #ffffff transparent transparent transparent !important;
+            //  top: 0.8em !important;
+            //  right: 0.5em !important;
+            //  transition: 0.3s;
+            //}
+            //li:hover::after {
+            //  transform: scaleY(-1);
+            //  top: 0.4em;
+            //}
             li:hover {
               background: #4E5465;
               border-left: 2px solid #F78B20;
             }
           }
-          .header-site-content-menu_trading_list {
+          .trading_list {
 
-            #trade_1, #trade_2, #trade_3, #trade_4, #trade_5 {
-
-            }
-            & .active {
-              margin-bottom: 95px;
-              .treading_list {
-                opacity: 1;
-                top: 0;
-                height: auto;
-              }
-            }
-            li:nth-child(1)::after {
-              border: none;
-            }
           }
           & .active {
             opacity: 1;
             top: 0;
           }
 
-          .header-site-content-menu_research_list {
+          .investments_list {
 
-            #research_1, #research_2, #research_3 {
-
-            }
-            & .active {
-              margin-bottom: 95px;
-              .research_list {
-                opacity: 1;
-                top: 0;
-                height: auto;
-              }
-            }
-
-            li:nth-child(1)::after {
-              border: none;
-            }
           }
           & .active {
             opacity: 1;
             top: 0;
           }
 
-          .header-site-content-menu_why_list {
+          .competitions_list {
 
+          }
+          & .active {
+            opacity: 1;
+            top: 0;
+          }
+
+          .partners_list {
+            width: 180px;
+          }
+          & .active {
+            opacity: 1;
+            top: 0;
+          }
+
+          .about_list {
             margin-left: -65px;
-
-            #why_1, #why_2 {
-
-            }
-            & .active {
-              margin-bottom: 157px;
-              .why_list {
-                opacity: 1;
-                top: 0;
-                height: auto;
-              }
-            }
           }
           & .active {
             opacity: 1;
             top: 0;
           }
 
-        }
-        li:nth-child(1):after,
-        li:nth-child(2):after,
-        li:nth-child(5):after {
-          content: " ";
-          position: absolute;
-          border: 5px solid;
-          border-color: #F78B20 transparent transparent transparent;
-          top: 0.9em;
-          right: -1.5em;
-          transition: 0.3s;
-        }
-        li:hover::after {
-          transform: scaleY(-1);
-          top: 0.6em;
         }
 
       }
@@ -232,22 +191,29 @@
 
           ul {
             padding-left: 0;
+
             li {
               float: none;
               margin-left: 30px !important;
+
 
               a {
                 font: {
                   size: 13px;
                   weight: 600;
                 }
-              ;
+                z-index: 2;
               }
-            }
-            .lang_list {
-              top: 300px;
-              li {
-                margin: 0 !important;
+              ul{
+                padding-left: 0;
+                width: 190px;
+                z-index: 3;
+                li{
+                  margin-left: 0 !important;
+                }
+              }
+              .about_list{
+                margin-left: 0;
               }
             }
           }

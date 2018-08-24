@@ -37,6 +37,7 @@ a {
   margin-bottom: 0;
   color: $platforms_text_color;
 }
+
 .subtitle_h2 {
   padding-left: 60px;
   margin-bottom: 0;
@@ -53,4 +54,23 @@ a {
     text-align: center;
     text-transform: capitalize;
   }
+}
+
+.menu_item_arrow {
+  position: relative;
+}
+
+.menu_item_arrow:after {
+  content: " ";
+  position: absolute;
+  border: 5px solid;
+  border-color: #F78B20 transparent transparent transparent;
+  top: 0.9em;
+  right: -1.05em;
+  transition: 0.3s;
+}
+
+.menu_item_arrow:hover::after {
+  transform: scaleY(-1);
+  top: 0.6em;
 }

@@ -1,12 +1,8 @@
 ;(function () {
     angular
         .module('app')
-        .config(mainConfig)
-    // .config(['$mdIconProvider', function ($mdIconProvider) {
-    //     $mdIconProvider
-    //         .iconSet('social', 'bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-content-symbol.svg', 24)
-    //         .defaultIconSet('bower_components/material-design-icons/sprites/svg-sprite/svg-sprite-content-symbol.svg', 24);
-    // }]);
+        .config(mainConfig);
+
 
     mainConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider','$translateProvider'];
 
@@ -37,6 +33,10 @@
                 controller: 'TradingAccountsController',
                 controllerAs: 'vm',
             });
+
+
+        // $locationProvider.html5Mode(true);
+
 
         $translateProvider.registerAvailableLanguageKeys(['en', 'ru'], {
             'en-*': 'en',

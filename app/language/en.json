@@ -3,10 +3,49 @@
   "header_language_block_account": "open account",
   "header_language_block_client": "Client Portal"
 ,
-  "header_block_trading": "TRADING",
-  "header_block_overview": "Overview"
+  "header_block_trading": "Trading",
+  "header_block_investments": "Investments",
+  "header_block_competitions": "Competitions",
+  "header_block_partners": "Partners",
+  "header_block_about": "About Us",
 
 
+  "header_block_trading_item1": "Open a trading account",
+  "header_block_trading_item2": "Open a demo account",
+  "header_block_trading_item3": "Types of Accounts",
+  "header_block_trading_item4": "Input / Output of funds",
+  "header_block_trading_item5": "Meta Trader 4",
+  "header_block_trading_item6": "Meta Trader 5 (soon)",
+  "header_block_trading_item7": "MT4 iOS",
+  "header_block_trading_item8": "MT4 Android",
+  "header_block_trading_item9": "Binary",
+  "header_block_trading_item10": "Specification of contracts",
+  "header_block_trading_item11": "Leverage",
+  "header_block_trading_item12": "Economic calendar",
+
+  "header_block_investments_item1": "PAMM/MAM",
+  "header_block_investments_item2": "How to become a Manager",
+  "header_block_investments_item3": "Invest in the PAMM",
+  "header_block_investments_item4": "Portfolio Investments",
+
+
+  "header_block_competitions_item1":"Competition Live",
+  "header_block_competitions_item2":"Competition",
+  "header_block_competitions_item3":"Competition",
+  "header_block_competitions_item4":"Demo Auto Competition",
+  "header_block_competitions_item5":"Competition Best trader",
+
+  "header_block_partners_item1":"Regional representation",
+  "header_block_partners_item2":"Webmaster",
+  "header_block_partners_item3":"Agent",
+
+
+  "header_block_about_item1":"General information",
+  "header_block_about_item2":"Career",
+  "header_block_about_item3":"Contacts",
+  "header_block_about_item4":"Funds Security",
+  "header_block_about_item5":"Regulation",
+  "header_block_about_item6":"Promotions and Bonuses"
 
 
 }

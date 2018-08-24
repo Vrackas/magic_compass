@@ -1,6 +1,47 @@
 {
   "lang": "RU",
   "header_language_block_account": "открыть аккаунт",
-  "header_language_block_client": "Портал Клиента"
+  "header_language_block_client": "Портал Клиента",
 
+  "header_block_trading": "ТОРГОВЛЯ ",
+  "header_block_investments": "ИНВЕСТИЦИИ",
+  "header_block_competitions": "КОНКУРСЫ",
+  "header_block_partners": "ПАРТНЕРСТВО",
+  "header_block_about": "О НАС"
+,
+
+  "header_block_trading_item1": "Открыть торговый счет",
+  "header_block_trading_item2": "Открыть демо-счет",
+  "header_block_trading_item3": "Типы Счетов",
+  "header_block_trading_item4": "Ввод / Вывод средств",
+  "header_block_trading_item5": "Meta Trader 4",
+  "header_block_trading_item6": "Meta Trader 5 (скоро)",
+  "header_block_trading_item7": "MT4 iOS",
+  "header_block_trading_item8": "MT4 Android",
+  "header_block_trading_item9": "Binary",
+  "header_block_trading_item10": "Спецификация контрактов",
+  "header_block_trading_item11": "Кредитное плечо",
+  "header_block_trading_item12": "Экономический календарь",
+
+  "header_block_investments_item1": "PAMM/MAM",
+  "header_block_investments_item2": "Как стать Управляющим",
+  "header_block_investments_item3": "Инвестировать в РАММ",
+  "header_block_investments_item4": "Портфельные инв-ии",
+
+  "header_block_competitions_item1":"Конкурс Live",
+  "header_block_competitions_item2":"Конкурс",
+  "header_block_competitions_item3":"Конкурс",
+  "header_block_competitions_item4":"Конкурс Демо Авто",
+  "header_block_competitions_item5":"Кокурс Лучший трейдер",
+
+  "header_block_partners_item1":"Региональное предствительство",
+  "header_block_partners_item2":"Веб-мастер",
+  "header_block_partners_item3":"Агент",
+
+  "header_block_about_item1":"Общие сведения",
+  "header_block_about_item2":"Карьера",
+  "header_block_about_item3":"Контакты",
+  "header_block_about_item4":"Безопастность Средств",
+  "header_block_about_item5":"Регуляция",
+  "header_block_about_item6":"Акции и Бонусы"
 }
