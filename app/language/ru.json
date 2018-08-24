@@ -43,5 +43,18 @@
   "header_block_about_item3":"Контакты",
   "header_block_about_item4":"Безопастность Средств",
   "header_block_about_item5":"Регуляция",
-  "header_block_about_item6":"Акции и Бонусы"
+  "header_block_about_item6":"Акции и Бонусы",
+
+  "footer_block_account_right_title":"демо-счет",
+  "footer_block_account_right_text":"Практика FX и CFD торгуется на демо-счете с виртуальными средствами.",
+  "footer_block_account_right_button":"практика бесплатно",
+  "footer_block_account_left_title":"реальный счет",
+  "footer_block_account_left_text":"Выберите из диапазона учетных записей в соответствии с вашим стилем торговли и опытом.",
+  "footer_block_account_left_button":"Открытый счет",
+  "footer_block_help_title":"Нужна помощь?",
+  "footer_block_help_button":"Поддержка 24/5",
+  "footer_block_info_text":"Сайт www.bravoprotrade.com принадлежит компании BRAVOPRO CAPITAL, (регистрационный номер ....(IBC 2017). BRAVOPRO CAPITAL — это внешнеэкономическая компания Сен-Винсента и Гренадин. Компания BRAVOPRO CAPITAL IBC управляет сайтом www.bravoprotrade.com. Юридический адрес: Cedar Hill Crest, Villa, Kingstown VC0100, Saint Vincent and the Grenadines",
+  "footer_block_warning_title":"Предупреждение о Рисках",
+  "footer_block_warning_text1":"Торговля на любых финансовых рынках, подвергнута возможности потери ваших инвестиций и финансовых средств. Прежде чем начать торговать на валютном рынке, убедитесь, что вы четко осознаете вероятную опасность возможной потери ваших средств с использованием кредитного плеча и отсутствием специальных знаний подготовки на финансовых рынках.",
+  "footer_block_warning_text2":"BRAVOPRO TRADE не предоставляет свои услуги резидентам следующих стран: США, Иран, Куба, Судан, Сирия и Северная Корея."
 }

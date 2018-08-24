@@ -106,9 +106,10 @@
         color: #B3B3B4;
         font-family: "Roboto", sans-serif;
         font-size: 13px;
-        line-height: 25px;
+        line-height: 19px;
         text-decoration: none;
         transition: .3s all;
+        text-align: justify;
       }
 
       a:hover {
@@ -157,6 +158,7 @@
         font-size: 12px;
       }
       ul {
+        margin: 0;
         list-style-type: none;
         li {
           color: #B3B3B4;

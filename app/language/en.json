@@ -45,7 +45,21 @@
   "header_block_about_item3":"Contacts",
   "header_block_about_item4":"Funds Security",
   "header_block_about_item5":"Regulation",
-  "header_block_about_item6":"Promotions and Bonuses"
+  "header_block_about_item6":"Promotions and Bonuses",
+
+  "footer_block_account_right_title":"demo account",
+  "footer_block_account_right_text":"Practice FX and CFD trading on demo account with virtual funds.",
+  "footer_block_account_right_button":"practise for free",
+  "footer_block_account_left_title":"live account",
+  "footer_block_account_left_text":"Choose from a range of accounts to suit your trading style and expertise.",
+  "footer_block_account_left_button":"open account",
+  "footer_block_help_title":"Need Help?",
+  "footer_block_help_button":" 24/5 Support",
+  "footer_block_info_text":"The website www.bravoprotrade.com is owned by BRAVOPRO CAPITAL, (registration number .... (IBC 2017) .BRAVOPRO CAPITAL is a foreign economic company of Saint Vincent and the Grenadines.The company BRAVOPRO CAPITAL IBC operates the website www.bravoprotrade.com Legal address: CedarHill Crest, Villa, Kingstown VC0100, Saint Vincent and the Grenadines...",
+  "footer_block_warning_title":"Risk warning",
+  "footer_block_warning_text1":"Trading in any financial markets is subject to the possibility of losing your investment and financial resources. Before you start trading in the foreign exchange market, make sure that you are clearly aware of the likely danger of a possible loss of your funds using leverage and the lack of specialized training in the financial markets.",
+  "footer_block_warning_text2":"BRAVOPRO TRADE does not provide its services to residents of the following countries: the United States, Iran, Cuba, Sudan, Syria and North Korea."
+
 
 
 }
