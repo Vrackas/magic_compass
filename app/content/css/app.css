@@ -70,26 +70,6 @@ a {
   #homepage .header_image_parent img {
     width: 100%; }
 
-#homepage div.why_trade {
-  padding: 20px 0;
-  background-color: #eff0f1; }
-  #homepage div.why_trade p {
-    margin: 0;
-    text-transform: uppercase;
-    color: #7f8081;
-    text-align: center;
-    font-size: 23px;
-    font-weight: 600; }
-  #homepage div.why_trade ul {
-    padding: 0; }
-    #homepage div.why_trade ul li {
-      list-style: none;
-      margin: 25px;
-      min-height: 125px;
-      max-width: 120px; }
-      #homepage div.why_trade ul li img {
-        max-width: 81px; }
-
 #homepage div.platforms_block div.text_block {
   padding: 40px 60px; }
   #homepage div.platforms_block div.text_block p:first-child {
@@ -158,8 +138,6 @@ a {
     height: 336.5px; } }
 
 @media (min-width: 540px) and (max-width: 768px) {
-  #homepage .why_trade ul {
-    flex-wrap: wrap; }
   #homepage .platforms_block .layout-row {
     flex-direction: column-reverse; }
     #homepage .platforms_block .layout-row div {
@@ -180,8 +158,6 @@ a {
     margin-bottom: 180px; } }
 
 @media (max-width: 540px) {
-  #homepage .why_trade ul {
-    flex-wrap: wrap; }
   #homepage .platforms_block .layout-row {
     flex-direction: column-reverse; }
     #homepage .platforms_block .layout-row div {
@@ -1063,6 +1039,32 @@ a {
 
 .top_button .top_button_click:hover {
   background: #f7b44c; }
+
+.why_trade_block {
+  padding: 20px 0;
+  background-color: #eff0f1; }
+  .why_trade_block p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #7f8081;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600; }
+  .why_trade_block ul {
+    padding: 0; }
+    .why_trade_block ul li {
+      list-style: none;
+      margin: 25px;
+      min-height: 125px;
+      max-width: 120px; }
+      .why_trade_block ul li img {
+        max-width: 81px; }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .why_trade_block ul {
+      flex-wrap: wrap; } }
+  @media (max-width: 540px) {
+    .why_trade_block ul {
+      flex-wrap: wrap; } }
 
 .container {
   margin: 0 auto; }

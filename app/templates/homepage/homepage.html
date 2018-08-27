@@ -1,22 +1,18 @@
 <div id="homepage">
+
     <header-language-block></header-language-block>
+
     <header-block></header-block>
+
     <header-slider-block></header-slider-block>
+
     <div class="container">
         <get-started-block></get-started-block>
 
         <top-button></top-button>
 
 
-        <div class="why_trade">
-            <p>why trade with magic compass</p>
-            <ul layout="row" layout-align="center center">
-                <li layout="column"  layout-align="start center" ng-repeat="item in vm.why_trade_list">
-                    <img alt="" src="{{item.img}}">
-                    <span class="text sub_header">{{item.text}}</span>
-                </li>
-            </ul>
-        </div>
+        <why-trade-block></why-trade-block>
 
         <div class="platforms_block">
             <h2 class="title_h2">Platforms</h2>

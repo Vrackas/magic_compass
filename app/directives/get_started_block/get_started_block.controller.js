@@ -4,11 +4,11 @@
 
     angular
         .module('app')
-        .controller('GetStartedBlockController', FooterBlockController);
+        .controller('GetStartedBlockController', GetStartedBlockController);
 
-    FooterBlockController.$inject = ['$state'];
+    GetStartedBlockController.$inject = ['$state'];
 
-    function FooterBlockController($state) {
+    function GetStartedBlockController($state) {
         let vm = this;
 
     }

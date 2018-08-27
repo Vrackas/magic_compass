@@ -18,7 +18,7 @@
   "header_block_trading_item6": "Meta Trader 5 (скоро)",
   "header_block_trading_item7": "MT4 iOS",
   "header_block_trading_item8": "MT4 Android",
-  "header_block_trading_item9": "Binary",
+  "header_block_trading_item9": "Бинарные опционы",
   "header_block_trading_item10": "Спецификация контрактов",
   "header_block_trading_item11": "Кредитное плечо",
   "header_block_trading_item12": "Экономический календарь",
@@ -56,5 +56,11 @@
   "footer_block_info_text":"Сайт www.bravoprotrade.com принадлежит компании BRAVOPRO CAPITAL, (регистрационный номер ....(IBC 2017). BRAVOPRO CAPITAL — это внешнеэкономическая компания Сен-Винсента и Гренадин. Компания BRAVOPRO CAPITAL IBC управляет сайтом www.bravoprotrade.com. Юридический адрес: Cedar Hill Crest, Villa, Kingstown VC0100, Saint Vincent and the Grenadines",
   "footer_block_warning_title":"Предупреждение о Рисках",
   "footer_block_warning_text1":"Торговля на любых финансовых рынках, подвергнута возможности потери ваших инвестиций и финансовых средств. Прежде чем начать торговать на валютном рынке, убедитесь, что вы четко осознаете вероятную опасность возможной потери ваших средств с использованием кредитного плеча и отсутствием специальных знаний подготовки на финансовых рынках.",
-  "footer_block_warning_text2":"BRAVOPRO TRADE не предоставляет свои услуги резидентам следующих стран: США, Иран, Куба, Судан, Сирия и Северная Корея."
+  "footer_block_warning_text2":"BRAVOPRO TRADE не предоставляет свои услуги резидентам следующих стран: США, Иран, Куба, Судан, Сирия и Северная Корея.",
+
+
+  "get_started_text1":"Начало работы в Magic Compass",
+  "get_started_text2":"Торговля рискованна. Можно потерять весь свой капитал.",
+  "get_started_button1":"открыть реальный счет",
+  "get_started_button2":"открыть демо-счет"
 }
