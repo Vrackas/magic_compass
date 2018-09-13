@@ -4,30 +4,21 @@
 
     angular
         .module('app.header_slider_block', ['angular-carousel'])
-        .directive('headerSliderBlock', headerLanguageBlock);
+        .directive('headerSliderBlock', headerSliderBlock);
 
-    headerLanguageBlock.$inject = [];
+    headerSliderBlock.$inject = [];
 
-    function headerLanguageBlock() {
+    function headerSliderBlock() {
         return {
-            controller: function ($scope) {
-                $scope.sportImages = [
-                    {
-                        src: 'content/img/Magic compass_ver 04_index_banner01.png'
-                    }, {
-                        src: 'content/img/Magic compass_ver 04_index_banner02.png'
-                    }, {
-                        src: 'content/img/Magic compass_ver 04_index_banner03.png'
-                    }, {
-                        src: 'content/img/Magic compass_ver 04_index_banner04.png'
-                    }, {
-                        src: 'content/img/Magic compass_ver 04_index_banner05.png'
-                    },
-                ];
-            },
+            bindToController: true,
+            controller: 'headerSliderBlockController',
+            controllerAs: 'vm',
             templateUrl: 'directives/header_slider/header_slider_block.html',
             link: link,
             restrict: 'AE',
+            scope: {
+                model: '='
+            }
         };
 
 
@@ -35,5 +26,4 @@
 
         }
     }
-
 })();

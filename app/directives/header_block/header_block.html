@@ -8,12 +8,11 @@
             </div>
             <div class="header-site-content-menu">
                 <ul>
-                    <li class="menu_item_arrow"><a href="" ng-click="vm.open('.trading_list')">{{'header_block_trading'
-                        | translate}}</a>
+                    <li class="menu_item_arrow"><a href="" ng-click="vm.open('.trading_list')">{{'header_block_trading' | translate}}</a>
                         <ul class="trading_list">
-                            <li><a href="">{{'header_block_trading_item1' | translate}}</a></li>
+                            <li><a >{{'header_block_trading_item1' | translate}}</a></li>
                             <li><a href="">{{'header_block_trading_item2' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item3' | translate}}</a></li>
+                            <li><a ui-sref="account_type">{{'header_block_trading_item3' | translate}}</a></li>
                             <li><a href="">{{'header_block_trading_item4' | translate}}</a></li>
                             <li><a href="">{{'header_block_trading_item5' | translate}}</a></li>
                             <li><a href="">{{'header_block_trading_item6' | translate}}</a></li>
@@ -55,7 +54,7 @@
                     <li class="menu_item_arrow"><a href="" ng-click="vm.open('.about_list')">{{'header_block_about' |
                         translate}}</a>
                         <ul class="about_list">
-                            <li><a href="">{{'header_block_about_item1' | translate}}</a></li>
+                            <li><a ui-sref="general_information">{{'header_block_about_item1' | translate}}</a></li>
                             <li><a href="">{{'header_block_about_item2' | translate}}</a></li>
                             <li><a href="">{{'header_block_about_item3' | translate}}</a></li>
                             <li><a href="">{{'header_block_about_item4' | translate}}</a></li>

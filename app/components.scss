@@ -1,5 +1,21 @@
+html{
+  background-color: #353535;
+}
+
+body{
+  background-color: #353535;
+
+  font: {
+    family: $Lato;
+  };
+}
+
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 a {
@@ -35,20 +51,21 @@ a {
   font-size: 32px;
   padding-left: 60px;
   margin-bottom: 0;
-  color: $platforms_text_color;
+  color: $red_main;
 }
 
 .subtitle_h2 {
   padding-left: 60px;
   margin-bottom: 0;
-  color: $platforms_text_color;
+  color: $red_main;
 }
 
 .text {
-  color: $platforms_text_color;
+  color: #ffffff;
   font-size: 15px;
   &.sub_header {
-    color: $color_gray;
+    padding-top: 15px;
+    color: #ffffff;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
@@ -64,7 +81,7 @@ a {
   content: " ";
   position: absolute;
   border: 5px solid;
-  border-color: #F78B20 transparent transparent transparent;
+  border-color: #fa4659 transparent transparent transparent;
   top: 0.9em;
   right: -1.05em;
   transition: 0.3s;
@@ -73,4 +90,94 @@ a {
 .menu_item_arrow:hover::after {
   transform: scaleY(-1);
   top: 0.6em;
+}
+
+.text_block{
+  padding: 60px 10px;
+  font:{
+    family: "Roboto",sans-serif;
+  }
+  .line{
+    border: none;
+    border-top: 1px solid #ffffff59;
+    height: 0px;
+    //background: $platforms_text_color;
+    margin: 45px 0;
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    &.italic{
+      font-style: italic;
+      color: #88898b;
+    }
+  }
+  h4{
+    color: $red_main;
+    margin-bottom: 30px;
+  }
+}
+
+.main_button{
+  box-sizing: border-box;
+  border-radius: 5px;
+  font: {
+    family: $Lato;
+    size: 14px;
+    //weight: bold;
+  };
+  text-transform: uppercase;
+  background: $red_main;
+  color: white;
+  padding:13px 10px;
+  border: 1px solid $red_main;
+  &.primary{
+    background: transparent;
+    border-color: white;
+  }
+  &.orange{
+    background: #f7b633;
+    border-color: #f7b633;
+  }
+}
+
+
+
+//@media (min-width: 1500px) {
+//  .container {
+//    width: 1440px;
+//  }
+//}
+//and (max-width: 1500px)
+@media (min-width: 1200px)  {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 310px;
+  }
+  .text_block{
+    padding-top: 340px;
+  }
 }

@@ -3,7 +3,7 @@
 .header-site {
   height: 87px;
   width: 100%;
-  background: white;
+  background: linear-gradient(rgb(36, 36, 36) 0%, rgba(30,30,30, .5) 60%, rgba(0,0,0,0) 95%);
   position: fixed;
   top: 40px;
   z-index: 8;
@@ -15,7 +15,8 @@
         margin-top: 0;
         margin-left: 10px;
         img {
-          height: 87px;
+          height: 35px;
+          padding-top: 32px;
         }
       }
 
@@ -29,7 +30,7 @@
           margin-left: 42px;
           display: block;
           margin-top: 15px;
-          color: #303030;
+          color: #ffffff;
           transition: .5s all;
           position: relative;
 
@@ -39,7 +40,7 @@
             display: block;
             margin-top: 11px;
             text-decoration: none;
-            color: #595959;
+            color: #ffffff;
 
           }
           ul {
@@ -56,10 +57,11 @@
               float: none !important;
               margin: 0;
               padding: 10px 10px;
-              background: #393D49;
+              background: linear-gradient(90deg, #333333 0%, #5a5454 100%);
+              //background: #393D49;
               box-sizing: border-box;
               transition: .5s background;
-              border-left: 2px solid transparent;
+              border-left: 2px solid #333333;
               a {
                 color: white;
                 text-transform: none;
@@ -78,7 +80,9 @@
                 height: 0;
                 transition: .5s opacity, height;
                 li {
-                  background: #282B33;
+                  background: linear-gradient(90deg, #333333 0%, #5a5454 100%);
+                  //background: #282B33;
+
                   transition: 0.2s all;
                   a {
                     color: white;
@@ -93,7 +97,7 @@
 
                 li:hover {
                   border: none;
-                  background: #F68B1F;
+                  background: #fa4659;
                   margin-bottom: 0 !important;
                 }
                 li:after {
@@ -102,7 +106,7 @@
               }
             }
             li:nth-child(1) {
-              border-top: 2px solid #F78B20;;
+              border-top: 2px solid #fa4659;;
             }
             //li::after {
             //  content: " ";
@@ -118,8 +122,9 @@
             //  top: 0.4em;
             //}
             li:hover {
-              background: #4E5465;
-              border-left: 2px solid #F78B20;
+              //background: #4E5465;
+              background: linear-gradient(90deg, #2d2d2d 0%, #5a5454 100%);
+              border-left: 2px solid $red_main;
             }
           }
           .trading_list {
@@ -193,11 +198,13 @@
             padding-left: 0;
 
             li {
+              color: #303030;
               float: none;
               margin-left: 30px !important;
 
 
               a {
+                color: #303030;
                 font: {
                   size: 13px;
                   weight: 600;
@@ -209,7 +216,12 @@
                 width: 190px;
                 z-index: 3;
                 li{
+                  color: white;
                   margin-left: 0 !important;
+                  a{
+                    color: white;
+                    font-weight: 200;
+                  }
                 }
               }
               .about_list{
@@ -250,9 +262,9 @@
           border-radius: 50%;
           padding: 0;
           background: transparent;
-          border: 1px solid #C37323;
+          border: 1px solid $red_main;
           svg {
-            color: #C37323;
+            color: $red_main;
           }
         }
       }
@@ -271,9 +283,9 @@
         border-radius: 50%;
         padding: 0;
         background: transparent;
-        border: 1px solid #C37323;
+        border: 1px solid $red_main;
         svg {
-          color: #C37323;
+          color: $red_main;
         }
       }
     }
@@ -309,8 +321,8 @@
       .header-site-content-logo {
         a {
           img {
-            height: 70px;
-            margin-top: 11px;
+            //height: 70px;
+            //margin-top: 11px;
           }
         }
       }
@@ -350,8 +362,8 @@
       .header-site-content-logo {
         a {
           img {
-            height: 70px;
-            margin-top: 11px;
+            //height: 70px;
+            //margin-top: 11px;
             margin-left: -25px;
           }
         }

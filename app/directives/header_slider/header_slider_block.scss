@@ -1,0 +1,55 @@
+.header_slider_block {
+  padding-top: 40px;
+height: 1100px;
+  background: {
+    image: url("../../content/img/header_slider_block_bg.png");
+    size: cover;
+    position: top;
+    repeat: no-repeat;
+  }
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  why-trade-block{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+  }
+  get-started-block {
+    background-color: rgba(0,0,0, 0.37);
+    position: absolute;
+    width: 100%;
+    bottom: 500px;
+  }
+
+  //media
+
+  @media (min-width: 1500px) {
+
+  }
+
+  @media (min-width: 1200px) and (max-width: 1499px) {
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+  }
+
+  @media (min-width: 540px) and (max-width: 768px) {
+why-trade-block{
+  bottom: -55px;
+}
+
+  }
+
+  @media (max-width: 540px) {
+    why-trade-block{
+      bottom: -320px;
+    }
+  }
+}

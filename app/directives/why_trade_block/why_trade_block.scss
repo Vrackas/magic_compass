@@ -1,27 +1,32 @@
 .why_trade_block {
-    padding: 20px 0;
-    background-color: $why_trade_bg;
-    p {
-      margin: 0;
-      text-transform: uppercase;
-      color: $color_gray;
-      text-align: center;
-      font-size: 23px;
-      font-weight: 600;
-    }
-    ul {
-      padding: 0;
-      li {
-        list-style: none;
-        margin: 25px;
-        min-height: 125px;
-        max-width: 120px;
-        img {
-          max-width: 81px;
+  padding: 20px 0 50px;
+  background-color: #eff0f124;
+  height: auto;
+
+  p {
+    margin: 20px;
+    text-transform: uppercase;
+    color: $red_main;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      margin: 25px;
+      min-height: 125px;
+      max-width: 120px;
+      img {
+        max-width: 81px;
+        filter: brightness(100);
+        span {
+          color: white !important;
         }
       }
     }
-
+  }
 
   //media
 
@@ -43,14 +48,19 @@
 
   @media (min-width: 540px) and (max-width: 768px) {
 
-    ul {
-      flex-wrap: wrap;
-    }
+    ul, p{
+    width: 530px;
+    margin: 0 auto;
+    flex-wrap: wrap;
   }
+}
 
-  @media (max-width: 540px) {
-    ul {
-      flex-wrap: wrap;
-    }
+@media (max-width: 540px) {
+  ul {
+    flex-wrap: wrap;
+    width: 310px;
+    margin: 0 auto;
   }
+}
+
 }

@@ -1,54 +1,60 @@
 .get_started_block {
-  width: 100%;
-  background-color: $bg_get_started_block;
+  //width: 100%;
+
   color: $white_text_color;
   div {
     text-align: center;
     p:first-child {
       font-weight: 600;
-      font-size: 23px;
+      font-size: 21px;
       margin-bottom: 0;
     }
     p:last-child {
       margin-top: 0;
-      font-size: 11px;
+      font-size: 15px;
+      font-weight: 200;
+
     }
     a {
       display: block;
-      font-weight: 500;
-      text-transform: uppercase;
-      padding: 10px 20px;
+
     }
     a:first-child {
-      background-color: $yellow_bg_buttong_color;
-      border: 1px solid $yellow_bg_buttong_color;
 
-    }
-    a:last-child {
-      border: 1px solid $white_text_color;
+      //margin-right: 10px;
     }
 
   }
-  div.buttons {
-    padding-right: 30px
+  div:nth-child(2){
+    //width: 30%;
   }
+
+
 
   //media
 
   @media (min-width: 1500px) {
-
+    div:nth-child(2){
+      width: 35%;
+    }
   }
 
   @media (min-width: 1200px) and (max-width: 1499px) {
-
+    div:nth-child(2){
+      width: 35%;
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1200px) {
-
+    div:nth-child(2){
+      width: 43%;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
-
+    div:nth-child(2){
+      width: 60%;
+    }
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
@@ -62,6 +68,9 @@
       a{
         margin: 10px;
       }
+    }
+    div:nth-child(2){
+      width: 100%;
     }
   }
 

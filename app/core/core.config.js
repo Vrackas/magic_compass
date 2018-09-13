@@ -32,7 +32,19 @@
                 templateUrl: 'templates/trading_accounts/trading_accounts.html',
                 controller: 'TradingAccountsController',
                 controllerAs: 'vm',
-            });
+            })
+            .state('account_type', {
+                url: '/account_type',
+                templateUrl: 'templates/account_type/account_type.html',
+                controller: 'AccountTypeController',
+                controllerAs: 'vm',
+            })
+            .state('general_information', {
+                url: '/general_information',
+                templateUrl: 'templates/general_information/general_information.html',
+                controller: 'GeneralInformationController',
+                controllerAs: 'vm',
+            })
 
 
         // $locationProvider.html5Mode(true);

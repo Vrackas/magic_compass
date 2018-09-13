@@ -1,5 +1,5 @@
 #header_language_block {
-  background: #282B33 !important;
+  background: #464242 !important;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -21,7 +21,7 @@
         content: " ";
         position: absolute;
         border: 5px solid;
-        border-color: #F78B20 transparent transparent transparent;
+        border-color: $red_main transparent transparent transparent;
         top: 0.5em;
         right: 0.8em;
         transition: 0.3s;
@@ -52,7 +52,7 @@
         }
         li:hover {
           background: #4E5465;
-          border-left: 2px solid #F78B20;
+          border-left: 2px solid $red_main;
         }
       }
       & .active {
@@ -69,8 +69,8 @@
       padding: 0 12px;
       background: transparent;
       border-radius: 2px;
-      border: 1px solid #C37323;
-      color: #C37323;
+      border: 1px solid $red_main;
+      color: $red_main;
       text-transform: uppercase;
       font-size: 13px;
 
