@@ -57,6 +57,8 @@
         function headerWrapperClose() {
             $('.header_wrapper').removeClass('active');
         }
+        $(document).ready(function () {
+            $('body,html').animate({scrollTop: 0}, 1);})
 
     }
 })();

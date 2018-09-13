@@ -97,6 +97,11 @@ a {
     color: #fa4659; }
   .text_block .bold {
     font-weight: bold; }
+  .text_block a {
+    color: #fa4659;
+    text-decoration: none; }
+  .text_block a:hover {
+    text-decoration: underline; }
 
 .main_button {
   box-sizing: border-box;
@@ -882,21 +887,21 @@ a {
   bottom: 20px;
   right: 20px;
   background: none;
-  border: 3px solid #8b8b8b;
+  border: 3px solid white;
   height: 50px;
   width: 50px;
   border-radius: 25px;
   opacity: 0;
   transition: 0.8s all; }
   .top_button .top_button_click svg {
-    color: #8b8b8b;
+    color: white;
     font-size: 30px; }
 
 .top_button .active_top_button {
   opacity: 1 !important; }
 
 .top_button .top_button_click:hover {
-  background: #f7b44c; }
+  background: #fa4659; }
 
 .why_trade_block {
   padding: 20px 0 50px;
