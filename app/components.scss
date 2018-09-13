@@ -112,9 +112,18 @@ a {
       color: #88898b;
     }
   }
-  h4{
+  h4, h2{
     color: $red_main;
     margin-bottom: 30px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  ul{
+    color: $red_main;
+  }
+  .bold{
+    font-weight: bold;
   }
 }
 

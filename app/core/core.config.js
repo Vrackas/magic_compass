@@ -9,29 +9,16 @@
     function mainConfig($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
 
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/');
 
         $stateProvider
 
             .state('home', {
-                url: '/home',
+                url: '/',
                 templateUrl: 'templates/homepage/homepage.html',
                 controller: 'HomepageController',
                 controllerAs: 'vm',
 
-            })
-            .state('partners', {
-                url: '/partners',
-                templateUrl: 'templates/partners/partners.html',
-                controller: 'PartnersController',
-                controllerAs: 'vm',
-
-            })
-            .state('trading_accounts', {
-                url: '/trading_accounts',
-                templateUrl: 'templates/trading_accounts/trading_accounts.html',
-                controller: 'TradingAccountsController',
-                controllerAs: 'vm',
             })
             .state('account_type', {
                 url: '/account_type',
@@ -43,6 +30,12 @@
                 url: '/general_information',
                 templateUrl: 'templates/general_information/general_information.html',
                 controller: 'GeneralInformationController',
+                controllerAs: 'vm',
+            })
+            .state('career', {
+                url: '/career',
+                templateUrl: 'templates/career/career.html',
+                controller: 'CareerController',
                 controllerAs: 'vm',
             })
 
