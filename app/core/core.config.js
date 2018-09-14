@@ -44,6 +44,12 @@
                 controller: 'FundsSecurityController',
                 controllerAs: 'vm',
             })
+            .state('regulation', {
+                url: '/regulation',
+                templateUrl: 'templates/regulation/regulation.html',
+                controller: 'RegulationController',
+                controllerAs: 'vm',
+            })
 
 
         // $locationProvider.html5Mode(true);
