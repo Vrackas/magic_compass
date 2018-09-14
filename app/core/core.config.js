@@ -50,6 +50,18 @@
                 controller: 'RegulationController',
                 controllerAs: 'vm',
             })
+            .state('regional_representation', {
+                url: '/regional_representation',
+                templateUrl: 'templates/regional_representation/regional_representation.html',
+                controller: 'RegionalRepresentationController',
+                controllerAs: 'vm',
+            })
+            .state('agent', {
+                url: '/agent',
+                templateUrl: 'templates/agent/agent.html',
+                controller: 'AgentController',
+                controllerAs: 'vm',
+            })
 
 
         // $locationProvider.html5Mode(true);

@@ -88,6 +88,10 @@ a {
     .text_block p.italic {
       font-style: italic;
       color: #88898b; }
+    .text_block p.bold {
+      font-weight: bold; }
+    .text_block p.center {
+      text-align: center; }
   .text_block h4, .text_block h2 {
     color: #fa4659;
     margin-bottom: 30px; }
@@ -95,8 +99,6 @@ a {
     font-size: 40px; }
   .text_block ul {
     color: #fa4659; }
-  .text_block .bold {
-    font-weight: bold; }
   .text_block a {
     color: #fa4659;
     text-decoration: none; }
