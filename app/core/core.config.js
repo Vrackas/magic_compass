@@ -38,6 +38,12 @@
                 controller: 'CareerController',
                 controllerAs: 'vm',
             })
+            .state('funds_security', {
+                url: '/funds_security',
+                templateUrl: 'templates/funds_security/funds_security.html',
+                controller: 'FundsSecurityController',
+                controllerAs: 'vm',
+            })
 
 
         // $locationProvider.html5Mode(true);
