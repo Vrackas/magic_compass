@@ -26,6 +26,30 @@
                 controller: 'AccountTypeController',
                 controllerAs: 'vm',
             })
+            .state('become_manager', {
+                url: '/become_manager',
+                templateUrl: 'templates/become_manager/become_manager.html',
+                controller: 'BecomeManagerController',
+                controllerAs: 'vm',
+            })
+            .state('invest_pamm', {
+                url: '/invest_pamm',
+                templateUrl: 'templates/invest_pamm/invest_pamm.html',
+                controller: 'InvestPAMMController',
+                controllerAs: 'vm',
+            })
+            .state('regional_representation', {
+                url: '/regional_representation',
+                templateUrl: 'templates/regional_representation/regional_representation.html',
+                controller: 'RegionalRepresentationController',
+                controllerAs: 'vm',
+            })
+            .state('agent', {
+                url: '/agent',
+                templateUrl: 'templates/agent/agent.html',
+                controller: 'AgentController',
+                controllerAs: 'vm',
+            })
             .state('general_information', {
                 url: '/general_information',
                 templateUrl: 'templates/general_information/general_information.html',
@@ -50,18 +74,7 @@
                 controller: 'RegulationController',
                 controllerAs: 'vm',
             })
-            .state('regional_representation', {
-                url: '/regional_representation',
-                templateUrl: 'templates/regional_representation/regional_representation.html',
-                controller: 'RegionalRepresentationController',
-                controllerAs: 'vm',
-            })
-            .state('agent', {
-                url: '/agent',
-                templateUrl: 'templates/agent/agent.html',
-                controller: 'AgentController',
-                controllerAs: 'vm',
-            })
+
 
 
         // $locationProvider.html5Mode(true);
