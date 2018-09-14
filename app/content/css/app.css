@@ -112,7 +112,7 @@ a {
   font-size: 14px;
   text-transform: uppercase;
   background: #fa4659;
-  color: white;
+  color: white !important;
   padding: 13px 10px;
   border: 1px solid #fa4659; }
   .main_button.primary {
@@ -278,6 +278,9 @@ a {
       #homepage .text_block a {
         margin: 0 auto;
         text-align: center; } }
+
+.invest_pamm .text_block ul {
+  list-style: none; }
 
 .header-site {
   height: 87px;

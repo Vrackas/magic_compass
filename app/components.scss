@@ -148,7 +148,7 @@ a {
   };
   text-transform: uppercase;
   background: $red_main;
-  color: white;
+  color: white !important;
   padding:13px 10px;
   border: 1px solid $red_main;
   &.primary{
