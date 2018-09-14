@@ -26,6 +26,18 @@
                 controller: 'AccountTypeController',
                 controllerAs: 'vm',
             })
+            .state('mt5', {
+                url: '/mt5',
+                templateUrl: 'templates/mt5/mt5.html',
+                controller: 'MT5Controller',
+                controllerAs: 'vm',
+            })
+            .state('leverage', {
+                url: '/leverage',
+                templateUrl: 'templates/leverage/leverage.html',
+                controller: 'LeverageController',
+                controllerAs: 'vm',
+            })
             .state('become_manager', {
                 url: '/become_manager',
                 templateUrl: 'templates/become_manager/become_manager.html',

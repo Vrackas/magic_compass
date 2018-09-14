@@ -76,6 +76,16 @@
   "why_trade_item6":"24/5 support",
 
 
+  "mt5_text1": "Successful traders from all over the world use a multi-market platform, MetaTrader 5 for trading in Forex, stock markets, futures and CFDs. The platform can perform trading operations, conduct technical and fundamental analysis. MetaTrader 5 can even trade without the participation of the trader with trading robots and trading signals. The platform has a desktop, mobile and web versions for use on any device and in any situation.",
+  "mt5_text2": "Trading system MetaTrader 5 includes an advanced depth of market (with tick chart and time & sales), separate records of orders and transactions, support for all kinds of trade orders and modes of their execution. Use of a netting system of accounting positions for stock exchange trading and hedging — Forex. Thanks to trade from the chart (one click trading) and depth of market you can buy or sell currency pairs, stocks, futures and CFDs with a single click. And levels Stop Loss and Take Profit will help to consolidate profits and minimize losses.",
+
+  "leverage_text1": "Leverage 1:500 allows you to open positions with large size, and with good strategy and compliance with the rules of money management to increase profits and for small funds.",
+  "leverage_text2": "For example: having a private account of $10,000 traders can dispose of the sum of $ 5 000 000.",
+  "leverage_text3": "Using leverage, the trader runs the risk of staying in debt from brokerage company as the broker continuously monitors the status of the transactions of its customers. The transaction will be automatically closed, if the amount of losses will be equal to the sum of Deposit. Therefore, the 'go minus' it is impossible to the client, not a brokerage company.",
+  "leverage_text4": "Usually the trader chooses the leverage when opening an account, the broker only limits its maximum value. Standard leverage 1:100",
+  "leverage_text5": "Company Reeves Trade strongly recommends that before opening a trading account wisely to choose the amount of leverage depending on experience, strategy and risk per trade. We are interested in your earnings and always ready to help You in all your endeavors in the Forex market.",
+
+
   "become_manager_title1": "THE SPECIALISTS OF COMPANY REEVES TRADE HAVE DEVELOPED THE PAMM ACCOUNT SERVICE SPECIFICALLY FOR FACILITIES MANAGERS. IT ENABLES TRADERS EASILY AND EFFICIENTLY DISPOSE OF THE FUNDS OF PRINCIPALS, INCREASING BOTH THEIR OWN PROFITS AND CAPITAL OF INVESTORS.",
   "become_manager_text1": "The trade on the PAMM-account is little different from trading in a regular account. The main difference is that the Manager trades by his capital, and investors ' funds. Income and losses on the account are allocated automatically in proportion to the investments of each participant of the PAMM-account. In this case a trader gets an additional percentage as remuneration.",
   "become_manager_title2": "THE ADVANTAGES OF WORKING WITH PAMM-ACCOUNT",
