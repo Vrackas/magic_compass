@@ -141,7 +141,7 @@ a {
 @media (max-width: 540px) {
   .container {
     width: 310px; }
-  .text_block {
+  .text_block.home {
     padding-top: 340px; } }
 
 #homepage {
@@ -506,8 +506,6 @@ a {
     display: block; } }
 
 @media (max-width: 540px) {
-  .header-site .header-site-content .header-site-content-logo a img {
-    margin-left: -25px; }
   .header-site .header-site-content .header-site-content-menu {
     display: none; }
   .header-site .header-site-content .header_wrapper .header-site-content-menu {
@@ -588,7 +586,6 @@ a {
 
 .header_slider_block {
   padding-top: 40px;
-  height: 1100px;
   background-image: url("../../content/img/header_slider_block_bg.png");
   background-size: cover;
   background-position: top;
@@ -596,6 +593,56 @@ a {
   width: 100%;
   position: relative;
   box-sizing: border-box; }
+  .header_slider_block.home {
+    height: 1100px; }
+    .header_slider_block.home scroll-button {
+      position: absolute;
+      bottom: 60%;
+      left: 50%;
+      margin: 0 auto;
+      margin-left: -15px;
+      border: 1px solid white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      color: white;
+      display: block; }
+  .header_slider_block.trading {
+    height: 480px;
+    background-image: url("../../content/img/bg_trading.png"); }
+    .header_slider_block.trading why-trade-block {
+      display: none; }
+    .header_slider_block.trading get-started-block {
+      bottom: 15px; }
+  .header_slider_block.investments {
+    height: 480px;
+    background-image: url("../../content/img/bg_investments.png"); }
+    .header_slider_block.investments why-trade-block {
+      display: none; }
+    .header_slider_block.investments get-started-block {
+      bottom: 15px; }
+  .header_slider_block.competitions {
+    height: 480px;
+    background-image: url("../../content/img/bg_competitions.png"); }
+    .header_slider_block.competitions why-trade-block {
+      display: none; }
+    .header_slider_block.competitions get-started-block {
+      bottom: 15px; }
+  .header_slider_block.partners {
+    height: 480px;
+    background-image: url("../../content/img/bg_partners.png"); }
+    .header_slider_block.partners why-trade-block {
+      display: none; }
+    .header_slider_block.partners get-started-block {
+      bottom: 15px; }
+  .header_slider_block.about {
+    height: 480px;
+    background-image: url("../../content/img/bg_about.png"); }
+    .header_slider_block.about why-trade-block {
+      display: none; }
+    .header_slider_block.about get-started-block {
+      bottom: 15px; }
+  .header_slider_block scroll-button {
+    display: none; }
   .header_slider_block why-trade-block {
     position: absolute;
     bottom: 75px;
@@ -609,8 +656,10 @@ a {
     .header_slider_block why-trade-block {
       bottom: -55px; } }
   @media (max-width: 540px) {
+    .header_slider_block.home scroll-button {
+      bottom: 75%; }
     .header_slider_block why-trade-block {
-      bottom: -320px; } }
+      bottom: -345px; } }
 
 #footer-block {
   height: auto;
@@ -925,7 +974,7 @@ a {
       list-style: none;
       margin: 25px;
       min-height: 125px;
-      max-width: 120px; }
+      max-width: 105px; }
       .why_trade_block ul li img {
         max-width: 81px;
         filter: brightness(100); }
@@ -941,3 +990,21 @@ a {
       flex-wrap: wrap;
       width: 310px;
       margin: 0 auto; } }
+
+.scroll_button {
+  padding-top: 0 !important;
+  width: auto !important; }
+  .scroll_button a {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 50%; }
+    .scroll_button a i {
+      width: 24px;
+      height: 30px;
+      color: white;
+      font-size: 30px;
+      position: relative;
+      top: 5px; }
+    .scroll_button a i:before {
+      width: 30px;
+      height: 30px; }

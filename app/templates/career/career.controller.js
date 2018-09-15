@@ -5,10 +5,11 @@
         .controller('CareerController', CareerController);
 
 
-    CareerController.$inject = [];
+    CareerController.$inject = ['$scope'];
 
-    function CareerController() {
+    function CareerController($scope) {
         let vm = this;
+
 
 
 

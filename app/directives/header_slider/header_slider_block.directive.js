@@ -6,9 +6,9 @@
         .module('app.header_slider_block', ['angular-carousel'])
         .directive('headerSliderBlock', headerSliderBlock);
 
-    headerSliderBlock.$inject = [];
+    headerSliderBlock.$inject = ['$rootScope'];
 
-    function headerSliderBlock() {
+    function headerSliderBlock($rootScope) {
         return {
             bindToController: true,
             controller: 'headerSliderBlockController',
@@ -17,13 +17,15 @@
             link: link,
             restrict: 'AE',
             scope: {
+                background: '=',
                 model: '='
             }
         };
 
 
         function link(scope, element, attrs) {
-
+            console.log(scope.vm);
+            $rootScope.$broadcast('background', scope.vm.background);
         }
     }
 })();

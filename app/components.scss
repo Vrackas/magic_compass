@@ -97,6 +97,7 @@ a {
   font:{
     family: "Roboto",sans-serif;
   }
+  &.home{}
   .line{
     border: none;
     border-top: 1px solid #ffffff59;
@@ -198,6 +199,7 @@ a {
     width: 310px;
   }
   .text_block{
-    padding-top: 340px;
+    &.home{padding-top: 340px;}
+
   }
 }

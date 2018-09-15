@@ -1,6 +1,6 @@
 .header_slider_block {
   padding-top: 40px;
-height: 1100px;
+
   background: {
     image: url("../../content/img/header_slider_block_bg.png");
     size: cover;
@@ -10,13 +10,97 @@ height: 1100px;
   width: 100%;
   position: relative;
   box-sizing: border-box;
-  why-trade-block{
+  &.home {
+    height: 1100px;
+    scroll-button {
+      position: absolute;
+      bottom: 60%;
+      left: 50%;
+      margin: 0 auto;
+      margin-left: -15px;
+      border: 1px solid white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      color: white;
+      display: block;
+    }
+
+  }
+  &.trading {
+    height: 480px;
+    background: {
+      image: url("../../content/img/bg_trading.png");
+    }
+  ;
+    why-trade-block {
+      display: none;
+    }
+    get-started-block {
+      bottom: 15px;
+    }
+  }
+  &.investments {
+    height: 480px;
+    background: {
+      image: url("../../content/img/bg_investments.png");
+    }
+  ;
+    why-trade-block {
+      display: none;
+    }
+    get-started-block {
+      bottom: 15px;
+    }
+  }
+  &.competitions {
+    height: 480px;
+    background: {
+      image: url("../../content/img/bg_competitions.png");
+    }
+  ;
+    why-trade-block {
+      display: none;
+    }
+    get-started-block {
+      bottom: 15px;
+    }
+  }
+  &.partners {
+    height: 480px;
+    background: {
+      image: url("../../content/img/bg_partners.png");
+    }
+  ;
+    why-trade-block {
+      display: none;
+    }
+    get-started-block {
+      bottom: 15px;
+    }
+  }
+  &.about {
+    height: 480px;
+    background: {
+      image: url("../../content/img/bg_about.png");
+    }
+  ;
+    why-trade-block {
+      display: none;
+    }
+    get-started-block {
+      bottom: 15px;
+    }
+  }
+  scroll-button {
+    display: none;
+  }
+  why-trade-block {
     position: absolute;
     bottom: 75px;
     width: 100%;
   }
   get-started-block {
-    background-color: rgba(0,0,0, 0.37);
+    background-color: rgba(0, 0, 0, 0.37);
     position: absolute;
     width: 100%;
     bottom: 500px;
@@ -41,15 +125,21 @@ height: 1100px;
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
-why-trade-block{
-  bottom: -55px;
-}
+    why-trade-block {
+      bottom: -55px;
+    }
 
   }
 
   @media (max-width: 540px) {
-    why-trade-block{
-      bottom: -320px;
+    &.home {
+      scroll-button {
+        bottom: 75%;
+      }
+
+    }
+    why-trade-block {
+      bottom: -345px;
     }
   }
 }
