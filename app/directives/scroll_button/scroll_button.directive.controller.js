@@ -17,12 +17,13 @@
             event.preventDefault();
 
             var top = $('#section').offset().top;
+            var height = top - 150;
             if (top === '#section') {
-                top = top - 250;
-                $('body,html').animate({scrollTop: top}, 1000);
+
+                $('body,html').animate({scrollTop: height}, 1000);
             }
 
-            $('body,html').animate({scrollTop: top}, 1000);
+            $('body,html').animate({scrollTop: height}, 1000);
 
         }
 
