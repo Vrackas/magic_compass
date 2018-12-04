@@ -39,7 +39,10 @@
          */
 
         function changeLang(lang) {
-            $translate.use(lang);
+            $translate.use(lang)
+                // .then(function () {
+                // $localStorage.langKey = lang
+            // });
         }
     }
 })();

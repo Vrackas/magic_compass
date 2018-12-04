@@ -10,41 +10,37 @@
                 <ul>
                     <li class="menu_item_arrow"><a href="" ng-click="vm.open('.trading_list')">{{'header_block_trading' | translate}}</a>
                         <ul class="trading_list">
-                            <li><a >{{'header_block_trading_item1' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item2' | translate}}</a></li>
-                            <li><a ui-sref="account_type">{{'header_block_trading_item3' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item4' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item5' | translate}}</a></li>
+                            <!--<li><a ui-sref="account_type">{{'header_block_trading_item3' | translate}}</a></li>-->
+                            <!--<li><a ui-sref="input_withdrawal">{{'header_block_trading_item4' | translate}}</a></li>-->
                             <li><a ui-sref="mt5">{{'header_block_trading_item6' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item7' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item8' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item9' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item10' | translate}}</a></li>
+                            <!--<li><a href="">{{'header_block_trading_item7' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_trading_item8' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_trading_item10' | translate}}</a></li>-->
                             <li><a ui-sref="leverage">{{'header_block_trading_item11' | translate}}</a></li>
-                            <li><a href="">{{'header_block_trading_item12' | translate}}</a></li>
+                            <li><a ng-click="vm.calendarOpen()">{{'header_block_trading_item12' | translate}}</a></li>
                         </ul>
                     </li>
                     <li class="menu_item_arrow"><a href="" ng-click="vm.open('.investments_list')">{{'header_block_investments' | translate}}</a>
                         <ul class="investments_list">
-                            <li><a href="">{{'header_block_investments_item1' | translate}}</a></li>
+                            <!--<li><a href="">{{'header_block_investments_item1' | translate}}</a></li>-->
                             <li><a ui-sref="become_manager">{{'header_block_investments_item2' | translate}}</a></li>
                             <li><a ui-sref="invest_pamm">{{'header_block_investments_item3' | translate}}</a></li>
-                            <li><a href="">{{'header_block_investments_item4' | translate}}</a></li>
+                            <!--<li><a href="">{{'header_block_investments_item4' | translate}}</a></li>-->
                         </ul>
                     </li>
-                    <li class="menu_item_arrow"><a href="" ng-click="vm.open('.competitions_list')">{{'header_block_competitions' | translate}}</a>
-                        <ul class="competitions_list">
-                            <li><a href="">{{'header_block_competitions_item1' | translate}}</a></li>
-                            <li><a href="">{{'header_block_competitions_item2' | translate}}</a></li>
-                            <li><a href="">{{'header_block_competitions_item3' | translate}}</a></li>
-                            <li><a href="">{{'header_block_competitions_item4' | translate}}</a></li>
-                            <li><a href="">{{'header_block_competitions_item5' | translate}}</a></li>
-                        </ul>
-                    </li>
+                    <!--<li class="menu_item_arrow"><a href="" ng-click="vm.open('.competitions_list')">{{'header_block_competitions' | translate}}</a>-->
+                        <!--<ul class="competitions_list">-->
+                            <!--<li><a href="">{{'header_block_competitions_item1' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_competitions_item2' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_competitions_item3' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_competitions_item4' | translate}}</a></li>-->
+                            <!--<li><a href="">{{'header_block_competitions_item5' | translate}}</a></li>-->
+                        <!--</ul>-->
+                    <!--</li>-->
                     <li class="menu_item_arrow"><a href="" ng-click="vm.open('.partners_list')">{{'header_block_partners' | translate}}</a>
                         <ul class="partners_list">
                             <li><a ui-sref="regional_representation">{{'header_block_partners_item1' | translate}}</a></li>
-                            <li><a href="">{{'header_block_partners_item2' | translate}}</a></li>
+                            <li><a ui-sref="mt5_white_label">{{'header_block_partners_item2' | translate}}</a></li>
                             <li><a ui-sref="agent">{{'header_block_partners_item3' | translate}}</a></li>
                         </ul>
                     </li>
@@ -52,10 +48,10 @@
                         <ul class="about_list">
                             <li><a ui-sref="general_information">{{'header_block_about_item1' | translate}}</a></li>
                             <li><a ui-sref="career">{{'header_block_about_item2' | translate}}</a></li>
-                            <li><a href="">{{'header_block_about_item3' | translate}}</a></li>
+                            <!--<li><a href="">{{'header_block_about_item3' | translate}}</a></li>-->
                             <li><a ui-sref="funds_security">{{'header_block_about_item4' | translate}}</a></li>
                             <li><a ui-sref="regulation">{{'header_block_about_item5' | translate}}</a></li>
-                            <li><a href="">{{'header_block_about_item6' | translate}}</a></li>
+                            <!--<li><a href="">{{'header_block_about_item6' | translate}}</a></li>-->
 
                         </ul>
                     </li>
@@ -67,41 +63,37 @@
                         <ul layout="column">
                             <li><a href="" ng-click="vm.open('.trading_list')">{{'header_block_trading' | translate}}</a>
                                 <ul class="trading_list">
-                                    <li><a href="">{{'header_block_trading_item1' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item2' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item3' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item4' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item5' | translate}}</a></li>
+                                   <!--<li><a href="">{{'header_block_trading_item3' | translate}}</a></li>-->
+                                    <li><a ui-sref="input_withdrawal">{{'header_block_trading_item4' | translate}}</a></li>
                                     <li><a ui-sref="mt5">{{'header_block_trading_item6' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item7' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item8' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item9' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item10' | translate}}</a></li>
+                                    <!--<li><a href="">{{'header_block_trading_item7' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_trading_item8' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_trading_item10' | translate}}</a></li>-->
                                     <li><a ui-sref="leverage">{{'header_block_trading_item11' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_trading_item12' | translate}}</a></li>
+                                    <li><a ng-click="vm.calendarOpen()">{{'header_block_trading_item12' | translate}}</a></li>
                                 </ul>
                             </li>
                             <li><a href="" ng-click="vm.open('.investments_list')">{{'header_block_investments' | translate}}</a>
                                 <ul class="investments_list">
-                                    <li><a href="">{{'header_block_investments_item1' | translate}}</a></li>
+                                    <!--<li><a href="">{{'header_block_investments_item1' | translate}}</a></li>-->
                                     <li><a ui-sref="become_manager">{{'header_block_investments_item2' | translate}}</a></li>
                                     <li><a ui-sref="invest_pamm">{{'header_block_investments_item3' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_investments_item4' | translate}}</a></li>
+                                    <!--<li><a href="">{{'header_block_investments_item4' | translate}}</a></li>-->
                                 </ul>
                             </li>
-                            <li><a href="" ng-click="vm.open('.competitions_list')">{{'header_block_competitions' | translate}}</a>
-                                <ul class="competitions_list">
-                                    <li><a href="">{{'header_block_competitions_item1' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_competitions_item2' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_competitions_item3' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_competitions_item4' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_competitions_item5' | translate}}</a></li>
-                                </ul>
-                            </li>
+                            <!--<li><a href="" ng-click="vm.open('.competitions_list')">{{'header_block_competitions' | translate}}</a>-->
+                                <!--<ul class="competitions_list">-->
+                                    <!--<li><a href="">{{'header_block_competitions_item1' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_competitions_item2' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_competitions_item3' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_competitions_item4' | translate}}</a></li>-->
+                                    <!--<li><a href="">{{'header_block_competitions_item5' | translate}}</a></li>-->
+                                <!--</ul>-->
+                            <!--</li>-->
                             <li><a href="" ng-click="vm.open('.partners_list')">{{'header_block_partners' | translate}}</a>
                                 <ul class="partners_list">
                                     <li><a ui-sref="regional_representation">{{'header_block_partners_item1' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_partners_item2' | translate}}</a></li>
+                                    <li><a ui-sref="mt5_white_label">{{'header_block_partners_item2' | translate}}</a></li>
                                     <li><a ui-sref="agent">{{'header_block_partners_item3' | translate}}</a></li>
                                 </ul>
                             </li>
@@ -109,10 +101,10 @@
                                 <ul class="about_list">
                                     <li><a ui-sref="general_information">{{'header_block_about_item1' | translate}}</a></li>
                                     <li><a ui-sref="career">{{'header_block_about_item2' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_about_item3' | translate}}</a></li>
+                                    <!--<li><a href="">{{'header_block_about_item3' | translate}}</a></li>-->
                                     <li><a ui-sref="funds_security">{{'header_block_about_item4' | translate}}</a></li>
                                     <li><a ui-sref="regulation">{{'header_block_about_item5' | translate}}</a></li>
-                                    <li><a href="">{{'header_block_about_item6' | translate}}</a></li>
+                                    <!--<li><a href="">{{'header_block_about_item6' | translate}}</a></li>-->
                                 </ul>
                             </li>
                         </ul>

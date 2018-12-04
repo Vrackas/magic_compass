@@ -6,9 +6,9 @@
         .module('app')
         .controller('HeaderBlockController', HeaderBlockController);
 
-    HeaderBlockController.$inject = ['$state', '$timeout'];
+    HeaderBlockController.$inject = ['$state', '$timeout', '$translate'];
 
-    function HeaderBlockController($state, $timeout) {
+    function HeaderBlockController($state, $timeout, $translate) {
         let vm = this;
 
         vm.contentActive = false;
@@ -17,9 +17,10 @@
         vm.subOpen = subOpen;
         vm.headerWrapperOpen = headerWrapperOpen;
         vm.headerWrapperClose = headerWrapperClose;
+        vm.calendarOpen = calendarOpen;
 
         function open(style) {
-            console.log($(style));
+            // console.log($(style));
             $(style).addClass('active');
 
             $(document).mouseup(function (e) {
@@ -54,6 +55,16 @@
                 }
             });
         }
+
+        function calendarOpen() {
+            if($translate.use() === 'en'){
+                document.location.href="https://www.mql5.com/en/economic-calendar";
+            }
+            if($translate.use() === 'ru'){
+                document.location.href="https://www.mql5.com/ru/economic-calendar";
+            }
+        }
+
         function headerWrapperClose() {
             $('.header_wrapper').removeClass('active');
         }

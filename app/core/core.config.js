@@ -9,6 +9,8 @@
     function mainConfig($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
 
 
+        // $localStorage.langKey = 'en';
+
         $urlRouterProvider.otherwise('/');
 
         $stateProvider
@@ -24,6 +26,12 @@
                 url: '/account_type',
                 templateUrl: 'templates/account_type/account_type.html',
                 controller: 'AccountTypeController',
+                controllerAs: 'vm',
+            })
+            .state('input_withdrawal', {
+                url: '/input_withdrawal',
+                templateUrl: 'templates/input_withdrawal/input_withdrawal.html',
+                controller: 'InputWithdrawalController',
                 controllerAs: 'vm',
             })
             .state('mt5', {
@@ -56,6 +64,12 @@
                 controller: 'RegionalRepresentationController',
                 controllerAs: 'vm',
             })
+            .state('mt5_white_label', {
+                url: '/mt5_white_label',
+                templateUrl: 'templates/mt5_white_label/mt5_white_label.html',
+                controller: 'MT5WhiteLabelController',
+                controllerAs: 'vm',
+            })
             .state('agent', {
                 url: '/agent',
                 templateUrl: 'templates/agent/agent.html',
@@ -85,7 +99,7 @@
                 templateUrl: 'templates/regulation/regulation.html',
                 controller: 'RegulationController',
                 controllerAs: 'vm',
-            })
+            });
 
 
 

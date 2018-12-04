@@ -12,5 +12,6 @@
     // runBlock.$inject = ['$sessionStorage','$localStorage',];
 
     function runBlock() {
+
     }
 })();

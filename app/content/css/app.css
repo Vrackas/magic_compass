@@ -76,7 +76,7 @@ a {
 
 .text_block {
   padding: 60px 10px;
-  font-family: "Roboto",sans-serif; }
+  font-family: "Roboto", sans-serif; }
   .text_block .line {
     border: none;
     border-top: 1px solid #ffffff59;
@@ -105,6 +105,54 @@ a {
   .text_block a:hover {
     text-decoration: underline; }
 
+.table_block {
+  min-height: calc(100vh - 185px);
+  padding: 100px 0; }
+  .table_block h2 {
+    text-align: left;
+    font-style: italic; }
+  .table_block p {
+    font-size: 14px; }
+  .table_block .table {
+    border-radius: 15px;
+    margin-bottom: 30px; }
+    .table_block .table .table_title {
+      background: rgba(0, 0, 0, 0.4);
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; }
+      .table_block .table .table_title h4 {
+        margin: 0;
+        padding: 15px;
+        color: #FFFFFF; }
+    .table_block .table table {
+      width: 100%;
+      background: #dadadb;
+      border-spacing: 0px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; }
+      .table_block .table table thead tr {
+        background: #767677; }
+        .table_block .table table thead tr td:first-child {
+          padding-left: 15px; }
+        .table_block .table table thead tr td {
+          color: #ffffff;
+          font-weight: 200; }
+      .table_block .table table tbody {
+        border-color: transparent; }
+        .table_block .table table tbody tr td:first-child {
+          padding-left: 15px; }
+        .table_block .table table tbody tr td {
+          border-bottom: 2px solid #ffffff;
+          padding: 8px;
+          overflow-wrap: break-word;
+          text-align: center; }
+        .table_block .table table tbody tr:last-child td {
+          border: none; }
+    .table_block .table table:nth-child(1) {
+      background: transparent; }
+      .table_block .table table:nth-child(1) p {
+        font-size: 20px; }
+
 .main_button {
   box-sizing: border-box;
   border-radius: 5px;
@@ -114,7 +162,8 @@ a {
   background: #fa4659;
   color: white !important;
   padding: 13px 10px;
-  border: 1px solid #fa4659; }
+  border: 1px solid #fa4659;
+  text-decoration: none; }
   .main_button.primary {
     background: transparent;
     border-color: white; }
@@ -189,14 +238,13 @@ a {
     #homepage div.images_block .empty_light_blue {
       background-color: #4eadbe; }
   #homepage div.feedback {
-    padding: 40px;
     color: white; }
     #homepage div.feedback .feedback_item {
       padding: 20px;
       border-radius: 5px;
       background: rgba(255, 255, 255, 0.2);
       margin: 10px;
-      min-width: 180px; }
+      min-width: 170px; }
     #homepage div.feedback .digit {
       font-size: 23px; }
     #homepage div.feedback .sub_title {
@@ -714,7 +762,7 @@ a {
   #footer-block .footer_block_info {
     width: 100%;
     height: auto;
-    background: linear-gradient(90deg, #333333 0%, #5a5454 100%); }
+    background: #303030; }
     #footer-block .footer_block_info .container {
       padding: 40px 0; }
       #footer-block .footer_block_info .container p, #footer-block .footer_block_info .container a, #footer-block .footer_block_info .container li {
@@ -734,7 +782,7 @@ a {
   #footer-block .footer_block_warning {
     width: 100%;
     height: auto;
-    background: #303030; }
+    background: linear-gradient(90deg, #333333 0%, #5a5454 100%); }
     #footer-block .footer_block_warning .container {
       padding: 30px 0;
       color: #B3B3B4;
@@ -773,6 +821,8 @@ a {
           cursor: pointer; }
         #footer-block .footer_block_reserved .container ul li:first-child {
           border: none; }
+        #footer-block .footer_block_reserved .container ul li:last-child {
+          padding-right: 0; }
         #footer-block .footer_block_reserved .container ul li:hover {
           text-decoration: underline; }
 
@@ -839,6 +889,8 @@ a {
     footer .footer_block_reserved div.container {
       display: flex;
       flex-direction: column; }
+      footer .footer_block_reserved div.container p {
+        padding: 10px 0 15px; }
       footer .footer_block_reserved div.container ul {
         padding: 0; }
         footer .footer_block_reserved div.container ul li {
