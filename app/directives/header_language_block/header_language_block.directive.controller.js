@@ -40,7 +40,8 @@
 
         function changeLang(lang) {
             $translate.use(lang)
-                // .then(function () {
+            // console.log(lang);
+            // .then(function () {
                 // $localStorage.langKey = lang
             // });
         }
