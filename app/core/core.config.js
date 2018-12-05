@@ -58,6 +58,18 @@
                 controller: 'InvestPAMMController',
                 controllerAs: 'vm',
             })
+            .state('pamm_mam', {
+                url: '/pamm_mam',
+                templateUrl: 'templates/pamm_mam/pamm_mam.html',
+                controller: 'PAMMMAMController',
+                controllerAs: 'vm',
+            })
+            .state('economic_calendar', {
+                url: '/economic_calendar',
+                templateUrl: 'templates/economic_calendar/economic_calendar.html',
+                controller: 'EconimicCalendarController',
+                controllerAs: 'vm',
+            })
             .state('regional_representation', {
                 url: '/regional_representation',
                 templateUrl: 'templates/regional_representation/regional_representation.html',

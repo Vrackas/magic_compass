@@ -6,9 +6,9 @@
         .module('app')
         .controller('headerLanguageBlockController', headerLanguageBlockController);
 
-    headerLanguageBlockController.$inject = ['$state', '$translate'];
+    headerLanguageBlockController.$inject = ['$state', '$translate', '$scope'];
 
-    function headerLanguageBlockController($state , $translate) {
+    function headerLanguageBlockController($state , $translate, $scope) {
         let vm = this;
 
 
@@ -40,9 +40,9 @@
 
         function changeLang(lang) {
             $translate.use(lang)
-            // console.log(lang);
+            $scope.$emit('changeLang', lang);
             // .then(function () {
-                // $localStorage.langKey = lang
+            //     $localStorage.langKey = lang
             // });
         }
     }

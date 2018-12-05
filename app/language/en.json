@@ -1,8 +1,7 @@
 {
   "lang": "EN",
   "header_language_block_account": "open account",
-  "header_language_block_client": "Client Portal"
-,
+  "header_language_block_client": "Client Portal",
   "header_block_trading": "Trading",
   "header_block_investments": "Investments",
   "header_block_competitions": "Competitions",
@@ -27,6 +26,7 @@
   "header_block_investments_item2": "How to become a Manager",
   "header_block_investments_item3": "Invest in the PAMM",
   "header_block_investments_item4": "Portfolio Investments",
+
 
 
   "header_block_competitions_item1":"Competition Live",
@@ -198,6 +198,8 @@
   "mt5_white_label_title1": "Advantages of Mirra Trade MT5?",
   "mt5_white_label_text3": "The MT5 platform provides all the same features as the MT4 platform, but an even more convenient terminal and constantly updated CFD trading instruments for stock assets (shares), which makes it an ideal platform for trading different assets.",
   "mt5_white_label_text4": "The MT5 platform is an opportunity to trade CFDs on stocks, gold, oil, stock indices and cryptocurrencies all in one place.",
+  "mt5_download":" Download МT5",
+
 
   "agent_main_title": "The Agent - introducing broker",
   "agent_main_text1": "Recommend traders and investors the best conditions of REEVES TRADE company and receive regular income from their turnover.",
@@ -386,9 +388,9 @@
   "account_type_news-trading": "News trading",
   "account_type_phone_dealing": "Phone dealing",
   "account_type_market_depth": "Market depth with level 2 quotes",
-  "account_type_minimum_deposit_from100":"от $100",
-  "account_type_minimum_deposit_from10":"от $10",
-  "account_type_minimum_deposit_from1":"от $1",
+  "account_type_minimum_deposit_from100":"from $100",
+  "account_type_minimum_deposit_from10":"from $10",
+  "account_type_minimum_deposit_from1":"from $1",
   "account_type_maximum_balance_without_limitations":"without limitations",
   "account_type_spread_floating_from0":"floating, from 0 pips",
   "account_type_spread_floating":"floating",
@@ -408,5 +410,53 @@
   "account_type_increments_50CFD":"50  currency pairs, CFDs, indices, gold and silver;",
   "account_type_increments50":"50  currency pairs + gold and silver;",
   "account_type_increments43":"43 pairs with BTC, LTC, EOS, PPC, ETH, DASH, EMC",
-  "account_type_increments28":"28 currency pairs + gold and silver;"
+  "account_type_increments28":"28 currency pairs + gold and silver;",
+
+
+  "pamm_mam_main_title": "General Overview",
+  "pamm_mam_main_text1": "The PAMM Service is a software solution that makes possible to copy trade operations from Master account to one or more Followers accounts and helps to automatize profit/loss distribution. Master operates his/her personal funds through a given PAMM Account, and his/her trading strategy is replicated on the Followers' own funds. PAMM Account performance can be viewed and analyzed with the help of advanced analytics that provides information in digital and graphic forms.",
+  "pamm_mam_main_text2": "PAMM Service guarantees exact and instantaneous copying of trades on Follower’s funds.",
+  "pamm_mam_main_text3": "PAMM Service is a cutting edge software solution that is intended to unite experienced traders (Masters) and people who are interested in financial markets (Followers) all over the world. As a result of that cooperation every participant gets benefits.",
+  "pamm_mam_main_text4": "There are 3 types of MT4-based PAMM accounts — PAMM STP, PAMM ECN and PAMM Crypto:",
+  "pamm_mam_thead1":"PAMM STP",
+  "pamm_mam_thead2":"PAMM ECN",
+  "pamm_mam_thead3":"PAMM Crypto",
+  "pamm_mam_Account_currency":"Account Currency",
+  "pamm_mam_Financial_instruments":"Financial Instruments",
+  "pamm_mam_Commissions":"Commissions",
+  "pamm_mam_Islamic_accounts":"Islamic Accounts",
+  "pamm_mam_Masters_capital":"Master's Capital",
+  "pamm_mam_Minimum_deposit":"Minimum Deposit for Followers",
+  "pamm_mam_Minimum_transaction":"Minimum Transaction Size",
+  "pamm_mam_Margin_call":"Margin Call",
+  "pamm_mam_Stop_out":"Stop Out",
+  "pamm_mam_table_text":"SWAP is charged if a trading order remains open overnight. Example of Swap calculation: You buy 1 lot BTCUSD at 9000 USD. So, 9000*0.01/360 = 2.5 USD. So, if your trade remains open overnight FXOpen will charge you 2.5 USD.",
+  "pamm_mam_Financial_instruments_50pairs":"50 currency pairs, gold and silver. See the full list of instruments for STP and ECN accounts.",
+  "pamm_mam_Financial_instruments_cryptoPairs":"Crypto pairs with BTC, ETH, LTC, Dash",
+  "pamm_mam_yes":"Yes",
+  "pamm_mam_no":"No",
+  "pamm_mam_Commissions_15":"from $1.5 per Standatd lot ($100,000) half-turn. Trading commissions are a subject to review in case of high trading volumes.",
+  "pamm_mam_Commissions_05":"0.5% of the transaction volume half-turn (1% round-turn)",
+  "pamm_mam_Islamic_accounts_SWAP_free":"SWAP-free accounts for Muslim traders",
+  "pamm_mam_Islamic_accounts_No_SWAP":"No, * SWAP is 10% per annum",
+  "pamm_mam_Minimum_deposit_depends":"Depends on the PAMM Master’s Offer conditions",
+  "pamm_mam_Minimum_transaction_001":"0.01 lot (1,000 units of the base currency) with an incremental (fractional) lot of 0.01.",
+  "pamm_mam_Minimum_transaction_depends":"Depends on the currency pair",
+  "pamm_mam_margin_level":"At Margin Level of less than",
+  "pamm_mam_followers_benefits":"Benefits for Followers",
+  "pamm_mam_followers_benefits1":"Carry out own money management and propose offers to Master (Follower Offer): A Follower (not a Master) has an exclusive right to assign and revoke funds at any time, so the scenario when a dishonest Master runs away with the money or fails to pay the profit is completely impossible. The Follower is able to propose Offer with his/her own parameters.",
+  "pamm_mam_followers_benefits2":"Automatic Profit/Loss and fees distribution: All the settlement operations (the distribution of profits, losses and the Master’s fees) are automatically carried out by the PAMM Service.",
+  "pamm_mam_followers_benefits3":"Public monitoring and performance charts enabling to choose the Master(s) depending on his/her risk attitude and profitability: The PAMM Service makes process of choosing competent and reliable Master easier for Followers by providing a complete set of assessment tools, public monitoring and performance ratings of PAMM Accounts. The information is presented in an easy-to-understand manner, so both sophisticated and novice Followers will find it easy to choose the best Master for them.",
+  "pamm_mam_masters_benefits":"Benefits for Masters",
+  "pamm_mam_masters_benefits1":"Multiple offers with different conditions: The PAMM Service allows the Master to set up multiple Offers with different parameters for Followers with varied funds and risk profiles.",
+  "pamm_mam_masters_benefits2":"Automatic results distribution: The PAMM Service keeps each Follower Account record individually, and the gains and losses are automatically distributed by the system between the Master and the Followers based on the proportion of assigned funds, so that each party receives its part of return. It also guarantees that the share of profit and fees will be paid to the Master strictly on time and according to the Offer conditions, on which the Master and the Followers agreed. This allows the Master to concentrate on trading.",
+  "pamm_mam_masters_benefits3":"Illustrative & user-friendly performance monitoring system: Potential Followers will make their choices based on the performance charts displaying the Masters’ past trading results.",
+  "pamm_mam_bills":"PAMM accounts"
+
+
+
+
+
+
+
 }
