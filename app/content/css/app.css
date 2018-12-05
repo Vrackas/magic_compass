@@ -107,7 +107,9 @@ a {
 
 .table_block {
   min-height: calc(100vh - 185px);
-  padding: 100px 0; }
+  height: auto;
+  padding: 100px 0;
+  color: white; }
   .table_block h2 {
     text-align: left;
     font-style: italic; }
@@ -130,13 +132,16 @@ a {
       border-spacing: 0px;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px; }
+      .table_block .table table p {
+        color: #303030; }
       .table_block .table table thead tr {
         background: #767677; }
         .table_block .table table thead tr td:first-child {
           padding-left: 15px; }
         .table_block .table table thead tr td {
-          color: #ffffff;
           font-weight: 200; }
+          .table_block .table table thead tr td p {
+            color: #ffffff; }
       .table_block .table table tbody {
         border-color: transparent; }
         .table_block .table table tbody tr td:first-child {
@@ -191,7 +196,9 @@ a {
   .container {
     width: 310px; }
   .text_block.home {
-    padding-top: 340px; } }
+    padding-top: 340px; }
+  .table_block table p {
+    font-size: 8px; } }
 
 #homepage {
   background-color: #353535; }
@@ -326,6 +333,21 @@ a {
       #homepage .text_block a {
         margin: 0 auto;
         text-align: center; } }
+
+#account_type .table_block {
+  padding-top: 0; }
+
+.mt5 .main_button {
+  margin: 10px  3px;
+  display: inline-block;
+  width: fit-content;
+  position: relative; }
+
+.pamm_mam .text_block ul {
+  list-style: none; }
+
+.pamm_mam .table_block {
+  padding: 0 !important; }
 
 .invest_pamm .text_block ul {
   list-style: none; }
@@ -859,42 +881,44 @@ a {
     height: 50px !important; } }
 
 @media (max-width: 540px) {
-  footer .footer_block_account {
-    height: auto;
-    flex-direction: column; }
-    footer .footer_block_account div {
-      width: 100% !important; }
-      footer .footer_block_account div div {
-        float: none !important;
-        margin: 90px auto 60px !important;
-        width: 300px !important; }
-  footer .footer_block_help {
-    height: 160px !important;
-    margin-top: 160px; }
-    footer .footer_block_help div {
-      text-align: center;
-      display: flex;
+  footer {
+    padding-top: 200px; }
+    footer .footer_block_account {
+      height: auto;
       flex-direction: column; }
-  footer .footer_block_info div {
-    flex-direction: column;
-    max-width: 100% !important; }
-    footer .footer_block_info div div li {
+      footer .footer_block_account div {
+        width: 100% !important; }
+        footer .footer_block_account div div {
+          float: none !important;
+          margin: 90px auto 60px !important;
+          width: 300px !important; }
+    footer .footer_block_help {
+      height: 160px !important;
+      margin-top: 160px; }
+      footer .footer_block_help div {
+        text-align: center;
+        display: flex;
+        flex-direction: column; }
+    footer .footer_block_info div {
+      flex-direction: column;
+      max-width: 100% !important; }
+      footer .footer_block_info div div li {
+        text-align: justify; }
+      footer .footer_block_info div div div {
+        margin-bottom: 40px; }
+    footer .footer_block_warning p {
       text-align: justify; }
-    footer .footer_block_info div div div {
-      margin-bottom: 40px; }
-  footer .footer_block_warning p {
-    text-align: justify; }
-  footer .footer_block_reserved {
-    height: 80px !important; }
-    footer .footer_block_reserved div.container {
-      display: flex;
-      flex-direction: column; }
-      footer .footer_block_reserved div.container p {
-        padding: 10px 0 15px; }
-      footer .footer_block_reserved div.container ul {
-        padding: 0; }
-        footer .footer_block_reserved div.container ul li {
-          font-size: 11px !important; } }
+    footer .footer_block_reserved {
+      height: 80px !important; }
+      footer .footer_block_reserved div.container {
+        display: flex;
+        flex-direction: column; }
+        footer .footer_block_reserved div.container p {
+          padding: 10px 0 15px; }
+        footer .footer_block_reserved div.container ul {
+          padding: 0; }
+          footer .footer_block_reserved div.container ul li {
+            font-size: 11px !important; } }
 
 .menu {
   height: 100vh;

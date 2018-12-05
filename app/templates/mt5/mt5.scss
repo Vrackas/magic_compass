@@ -1,5 +1,11 @@
 .mt5 {
-  
+  .main_button{
+    margin:10px  3px;
+    display: inline-block;
+    width: fit-content;
+    //float: left;
+    position: relative;
+  }
 
   //media
   @media (min-width: 1500px) {
