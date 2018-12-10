@@ -467,7 +467,25 @@
   "pamm_mam_masters_benefits1":"Multiple offers with different conditions: The PAMM Service allows the Master to set up multiple Offers with different parameters for Followers with varied funds and risk profiles.",
   "pamm_mam_masters_benefits2":"Automatic results distribution: The PAMM Service keeps each Follower Account record individually, and the gains and losses are automatically distributed by the system between the Master and the Followers based on the proportion of assigned funds, so that each party receives its part of return. It also guarantees that the share of profit and fees will be paid to the Master strictly on time and according to the Offer conditions, on which the Master and the Followers agreed. This allows the Master to concentrate on trading.",
   "pamm_mam_masters_benefits3":"Illustrative & user-friendly performance monitoring system: Potential Followers will make their choices based on the performance charts displaying the Masters’ past trading results.",
-  "pamm_mam_bills":"PAMM accounts"
+  "pamm_mam_bills":"PAMM accounts",
+
+
+  "contact_us_contact":"Contacts",
+  "contact_us_time":"Schedule:",
+  "contact_us_chat":"Support`s chat (general questions)",
+  "contact_us_new_requests":"Processing requests by e-mail (calls from new customers, payment processing, trading desk, technical support)",
+  "contact_us_form":"Feedback form:",
+  "contact_us_weekday":"from 7 to 16 (GMT) on weekdays.",
+  "contact_us_send":"Send",
+  "contact_us_first_name":"First name",
+  "contact_us_second_name":"Second Name",
+  "contact_us_company_name":"Company name",
+  "contact_us_web_site":"Web site",
+  "contact_us_phone":"Phone",
+  "contact_us_theme":"Theme",
+  "contact_us_msg":"Message"
+
+
 
 
 

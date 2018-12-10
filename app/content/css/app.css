@@ -352,6 +352,64 @@ a {
 .invest_pamm .text_block ul {
   list-style: none; }
 
+.contact-us .main_section .container {
+  padding: 100px 0; }
+
+.contact-us .main_section.contact .container h2 {
+  color: #fa4659;
+  font-size: 35px;
+  font-weight: 200;
+  margin: 0; }
+
+.contact-us .main_section.contact .container div form {
+  width: 600px; }
+  .contact-us .main_section.contact .container div form md-input-container {
+    width: 250px;
+    color: white; }
+    .contact-us .main_section.contact .container div form md-input-container input, .contact-us .main_section.contact .container div form md-input-container textarea {
+      border-radius: 10px;
+      background: #dadadb;
+      border: 2px solid white;
+      padding: 15px;
+      color: #303030;
+      font-size: 20px; }
+    .contact-us .main_section.contact .container div form md-input-container input {
+      height: 63px; }
+    .contact-us .main_section.contact .container div form md-input-container input::placeholder,
+    .contact-us .main_section.contact .container div form md-input-container textarea::placeholder {
+      color: #303030;
+      font-size: 20px; }
+  .contact-us .main_section.contact .container div form md-input-container:nth-child(7) {
+    width: 100%; }
+    .contact-us .main_section.contact .container div form md-input-container:nth-child(7) textarea {
+      width: 100%; }
+  .contact-us .main_section.contact .container div form .send_button {
+    margin: 0 auto; }
+    .contact-us .main_section.contact .container div form .send_button .main_button {
+      padding: 13px 30px; }
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .contact-us .container {
+    width: 500px; }
+  .contact-us .main_section.contact .container div {
+    width: 530px !important; }
+    .contact-us .main_section.contact .container div form {
+      width: 510px; }
+      .contact-us .main_section.contact .container div form .send_button {
+        text-align: center; } }
+
+@media (max-width: 540px) {
+  .contact-us .container {
+    width: 310px; }
+  .contact-us .main_section.contact .container div {
+    width: 300px; }
+    .contact-us .main_section.contact .container div form {
+      width: 300px; }
+      .contact-us .main_section.contact .container div form md-input-container {
+        width: 100%; }
+      .contact-us .main_section.contact .container div form .send_button {
+        text-align: center; } }
+
 .header-site {
   height: 87px;
   width: 100%;

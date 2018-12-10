@@ -1,0 +1,111 @@
+.contact-us {
+  .main_section {
+    .container {
+
+      padding: 100px 0;
+
+    }
+    &.contact {
+
+      .container {
+        h2 {
+          color: #fa4659;
+          font: {
+            size: 35px;
+            weight: 200;
+          }
+        ;
+          margin: 0;
+        }
+        div {
+          form {
+            width: 600px;
+            md-input-container {
+              width: 250px;
+              color: white;
+              input, textarea {
+                border-radius: 10px;
+                background: rgb(218, 218, 219);
+
+                border: 2px solid white;
+                padding: 15px;
+                color: rgb(48, 48, 48);
+                font-size: 20px;
+              }
+              input {
+                height: 63px;
+              }
+              input::placeholder,
+              textarea::placeholder {
+                color: rgb(48, 48, 48);
+                //text-transform: uppercase;
+                font-size: 20px;
+              }
+
+            }
+            md-input-container:nth-child(7) {
+              width: 100%;
+              textarea {
+                width: 100%;
+              }
+            }
+            .send_button {
+              margin: 0 auto;
+              .main_button{
+                padding: 13px 30px;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .container {
+      width: 500px;
+    }
+    .main_section {
+      &.contact {
+        .container {
+          div {
+            width: 530px !important;
+            form {
+              width: 510px;
+              .send_button {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 540px) {
+    .container {
+      width: 310px;
+    }
+    .main_section {
+
+      &.contact {
+        .container {
+          div {
+            width: 300px;
+            form {
+              width: 300px;
+              md-input-container {
+                width: 100%;
+
+              }
+              .send_button {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

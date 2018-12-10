@@ -64,6 +64,12 @@
                 controller: 'PAMMMAMController',
                 controllerAs: 'vm',
             })
+            .state('contact_us', {
+                url: '/contact_us',
+                templateUrl: 'templates/contact_us/contact_us.html',
+                controller: 'ContactUsController',
+                controllerAs: 'vm',
+            })
             .state('economic_calendar', {
                 url: '/economic_calendar',
                 templateUrl: 'templates/economic_calendar/economic_calendar.html',

@@ -1,0 +1,77 @@
+<div class="contact-us">
+
+    <header-language-block></header-language-block>
+
+    <header-block></header-block>
+
+    <header-slider-block background="'home'"></header-slider-block>
+
+    <div class="container">
+
+        <top-button></top-button>
+
+        <div class="text_block">
+            <h2 id="section">{{'contact_us_contact' | translate}}</h2>
+
+            <h4>{{'contact_us_time'| translate}}</h4>
+
+            <p>{{'contact_us_chat'| translate}} — 24/5</p>
+            <p>{{'contact_us_new_requests'| translate}} — <span>{{'contact_us_weekday'| translate}}</span></p>
+
+            <div class="main_section contact">
+                <div class="container" layout="column" layout-align="center center">
+                    <h2>{{"contact_us_form"| translate}}</h2>
+                    <div>
+                        <form name="contactForm" novalidate ng-submit="vm.send(vm.form)" layout="row" layout-align="space-between" layout-wrap>
+
+                            <md-input-container class="md-block" md-no-float>
+
+                                <input type="text" name="firstName" placeholder="{{'contact_us_first_name'| translate}}" md-autofocus ng-model="vm.form.firstName">
+                            </md-input-container>
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="text" name="secondName" placeholder="{{'contact_us_second_name'| translate}}" md-autofocus ng-model="vm.form.secondName">
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="text" name="companyName" placeholder="{{'contact_us_company_name'| translate}}" ng-model="vm.form.companyName">
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="text" name="link" placeholder="{{'contact_us_web_site'| translate}}" ng-model="vm.form.link">
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="text" name="phone" placeholder="{{'contact_us_phone'| translate}}" ng-model="vm.form.phone">
+                            </md-input-container>
+
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="text" name="theme" placeholder="{{'contact_us_theme'| translate}}" ng-model="vm.form.theme">
+                            </md-input-container>
+
+
+                            <md-input-container md-no-float>
+                                <label> </label>
+                                <textarea md-no-resize name="message" placeholder="{{'contact_us_msg'| translate}}" id="" cols="30" rows="5"
+                                          ng-model="vm.form.message"></textarea>
+                            </md-input-container>
+
+
+                            <div class="send_button">
+                                <button ng-disabled="contactForm.$invalid || contactForm.$pristine" type="submit" class="main_button">
+                                    {{'contact_us_send' | translate}}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <footer-block></footer-block>
+</div>
