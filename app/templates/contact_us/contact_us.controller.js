@@ -5,9 +5,9 @@
         .controller('ContactUsController', ContactUsController);
 
 
-    ContactUsController.$inject = ['$scope', 'http'];
+    ContactUsController.$inject = ['$scope', 'http', 'toastr'];
 
-    function ContactUsController($scope, http) {
+    function ContactUsController($scope, http, toastr) {
         let vm = this;
         vm.send = send;
 
@@ -18,7 +18,7 @@
                     console.log(res);
                     // debugger
                     if (res) {
-                        tostr.success("Message sent")
+                        toastr.success("Message sent")
                     }
 
                 }
