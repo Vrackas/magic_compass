@@ -410,6 +410,12 @@ a {
       .contact-us .main_section.contact .container div form .send_button {
         text-align: center; } }
 
+.privacy_policy .table_block {
+  padding: 0 !important; }
+
+.risk_disclosure .privacy_policy .table_block {
+  padding: 0 !important; }
+
 .header-site {
   height: 87px;
   width: 100%;

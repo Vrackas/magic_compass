@@ -64,6 +64,19 @@
                 controller: 'PAMMMAMController',
                 controllerAs: 'vm',
             })
+            .state('privacy_policy', {
+                url: '/privacy_policy',
+                templateUrl: 'templates/privacy_policy/privacy_policy.html',
+                controller: 'PrivacyPolicyController',
+                controllerAs: 'vm',
+            })
+            .state('risk_disclosure', {
+                url: '/risk_disclosure',
+                templateUrl: 'templates/risk_disclosure/risk_disclosure.html',
+                controller: 'RiskController',
+                controllerAs: 'vm',
+            })
+
             .state('contact_us', {
                 url: '/contact_us',
                 templateUrl: 'templates/contact_us/contact_us.html',
