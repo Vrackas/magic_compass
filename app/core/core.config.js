@@ -70,6 +70,12 @@
                 controller: 'PrivacyPolicyController',
                 controllerAs: 'vm',
             })
+            .state('portfolio_investments', {
+                url: '/portfolio_investments',
+                templateUrl: 'templates/portfolio_investments/portfolio_investments.html',
+                controller: 'PortfolioInvestmentsController',
+                controllerAs: 'vm',
+            })
             .state('documentation', {
                 url: '/documentation',
                 templateUrl: 'templates/documentation/documentation.html',
