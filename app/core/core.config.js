@@ -70,6 +70,12 @@
                 controller: 'PrivacyPolicyController',
                 controllerAs: 'vm',
             })
+            .state('documentation', {
+                url: '/documentation',
+                templateUrl: 'templates/documentation/documentation.html',
+                controller: 'DocumentationController',
+                controllerAs: 'vm',
+            })
             .state('risk_disclosure', {
                 url: '/risk_disclosure',
                 templateUrl: 'templates/risk_disclosure/risk_disclosure.html',

@@ -416,6 +416,40 @@ a {
 .risk_disclosure .privacy_policy .table_block {
   padding: 0 !important; }
 
+.documentation md-tabs.md-default-theme .md-tab.md-active, .documentation md-tabs .md-tab.md-active, .documentation md-tabs.md-default-theme .md-tab.md-active md-icon, .documentation md-tabs .md-tab.md-active md-icon, .documentation md-tabs.md-default-theme .md-tab.md-focused, .documentation md-tabs .md-tab.md-focused, .documentation md-tabs.md-default-theme .md-tab.md-focused md-icon, .documentation md-tabs .md-tab.md-focused md-icon {
+  color: #fa4659; }
+
+.documentation md-tabs.md-default-theme md-ink-bar, .documentation md-tabs md-ink-bar {
+  color: #fa4659 !important;
+  background-color: #fa4659 !important; }
+
+.documentation .documentation_button {
+  margin-top: 1px;
+  float: left;
+  min-height: 50px;
+  padding: 0 12px;
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid #fa4659;
+  color: #fa4659;
+  text-transform: uppercase;
+  font-size: 13px; }
+
+.documentation md-list h4 {
+  color: white !important; }
+
+.documentation h2 {
+  color: white; }
+
+.documentation .ml-10 {
+  margin-left: 10px !important; }
+
+.documentation .ml-25 {
+  margin-left: 25px !important; }
+
+.documentation .button-block {
+  margin-bottom: 30px !important; }
+
 .header-site {
   height: 87px;
   width: 100%;
