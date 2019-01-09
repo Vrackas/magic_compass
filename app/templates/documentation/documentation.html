@@ -13,8 +13,8 @@
         <div class="text_block">
             <h2>{{'document_list' | translate}}</h2>
             <div class="button-block">
-                <button ng-click="vm.person_doc = true" class="documentation_button btn_anim">{{ "document_list_item1" | translate}}</button>
-                <button ng-click="vm.person_doc = false" class="documentation_button btn_anim ml-25 ">{{ "document_list_item2" | translate}}</button>
+                <button ng-click="vm.person_doc = true"  ng-class="(!vm.person_doc) ? 'primary' : '' " class="main_button  btn_anim">{{ "document_list_item1" | translate}}</button>
+                <button ng-click="vm.person_doc = false" ng-class="(vm.person_doc) ? 'primary' : '' " class="main_button btn_anim ml-25 ">{{ "document_list_item2" | translate}}</button>
             </div>
             <div class="text_block" ng-if="vm.person_doc">
                 <md-list>
