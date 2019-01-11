@@ -352,6 +352,26 @@ a {
 .invest_pamm .text_block ul {
   list-style: none; }
 
+.career .items {
+  margin: 0 auto; }
+  .career .items .accordion {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.8s all;
+    position: relative; }
+  .career .items .active {
+    transition-delay: 0s !important; }
+  .career .items .active, .career .items .accordion:hover {
+    font-size: 20px; }
+  .career .items .panel {
+    box-sizing: border-box;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; }
+
 .contact-us .main_section .container {
   padding: 100px 0; }
 
