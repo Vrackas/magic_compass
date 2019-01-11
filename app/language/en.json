@@ -427,6 +427,8 @@
   "account_type_increments50":"50  currency pairs + gold and silver;",
   "account_type_increments43":"43 pairs with BTC, LTC, EOS, PPC, ETH, DASH, EMC",
   "account_type_increments28":"28 currency pairs + gold and silver;",
+  "account_type_open": "Open",
+
 
 
   "pamm_mam_main_title": "General Overview",
