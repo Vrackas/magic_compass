@@ -337,6 +337,9 @@ a {
 #account_type .table_block {
   padding-top: 0; }
 
+#account_type .text_block {
+  padding-bottom: 0; }
+
 .mt5 .main_button {
   margin: 10px  3px;
   display: inline-block;
